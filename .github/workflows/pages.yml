@@ -25,7 +25,7 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Install hexo-cli
-        run: num install -g hexo-cli
+        run: npm install -g hexo-cli
       - name: Build
         run: hexo generate
       - name: Deploy
