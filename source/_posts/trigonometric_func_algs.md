@@ -22,37 +22,45 @@ math: true
 ### 第一象限
 
 $$
-\theta\in[2k\pi,2k\pi+\frac{\pi}{2}],\ k\in\Z:\\
-\sin\theta>0\\
-\cos\theta>0\\
-\tan\theta>0\\
+\begin{align}
+\theta\in[2k\pi,2k\pi+\frac{\pi}{2}]&,\ k\in\mathbb{Z}:\nonumber\\
+\sin\theta>0\nonumber\\
+\cos\theta>0\nonumber\\
+\tan\theta>0\nonumber\\
+\end{align}
 $$
 
 ### 第二象限
 
 $$
-\theta\in[2k\pi+\frac{\pi}{2},2k\pi+\pi],\ k\in\Z:\\
-\sin\theta>0\\
-\cos\theta<0\\
-\tan\theta<0\\
+\begin{align}
+\theta\in[2k\pi+\frac{\pi}{2},2k\pi+\pi]&,\ k\in\mathbb{Z}:\nonumber\\
+\sin\theta>0\nonumber\\
+\cos\theta<0\nonumber\\
+\tan\theta<0\nonumber\\
+\end{align}
 $$
 
 ### 第三象限
 
 $$
-\theta\in[2k\pi-\pi,2k\pi-\frac{\pi}{2}],\ k\in\Z:\\
-\sin\theta<0\\
-\cos\theta<0\\
-\tan\theta>0\\
+\begin{align}
+\theta\in[2k\pi-\pi,2k\pi-\frac{\pi}{2}]&,\ k\in\mathbb{Z}:\nonumber\\
+\sin\theta<0\nonumber\\
+\cos\theta<0\nonumber\\
+\tan\theta>0\nonumber\\
+\end{align}
 $$
 
 ### 第四象限
 
 $$
-\theta\in[2k\pi-\frac{\pi}{2},2k\pi],\ k\in\Z:\\
-\sin\theta<0\\
-\cos\theta<0\\
-\tan\theta>0\\
+\begin{align}
+\theta\in[2k\pi-\frac{\pi}{2},2k\pi]&,\ k\in\mathbb{Z}:\nonumber\\
+\sin\theta<0\nonumber\\
+\cos\theta<0\nonumber\\
+\tan\theta>0\nonumber\\
+\end{align}
 $$
 
 ## 同角三角函数关系
@@ -66,60 +74,73 @@ $$
 
 #### 1. 
 
-对任意$k\in\Z$，有：
+对任意$k\in\mathbb{Z}$，有：
+
 $$
-\sin(\alpha+2k\pi)=\sin\alpha\\
-\cos(\alpha+2k\pi)=\cos\alpha\\
-\tan(\alpha+2k\pi)=\tan\alpha\\
+\begin{align}
+\sin(\alpha+2k\pi)=\sin\alpha\nonumber\\
+\cos(\alpha+2k\pi)=\cos\alpha\nonumber\\
+\tan(\alpha+2k\pi)=\tan\alpha\nonumber\\
+\end{align}
 $$
 
 #### 2.
 
 $$
-\sin(\alpha+\pi)=-\sin\alpha\\
-\cos(\alpha+\pi)=-\cos\alpha\\
-\tan(\alpha+\pi)=\tan\alpha\\
+\begin{align}
+\sin(\alpha+\pi)=-\sin\alpha\nonumber\\
+\cos(\alpha+\pi)=-\cos\alpha\nonumber\\
+\tan(\alpha+\pi)=\tan\alpha\nonumber\\
+\end{align}
 $$
 
 #### 3.
 
 $$
-\sin(-\alpha)=-\sin\alpha\\
-\cos(-\alpha)=\cos\alpha\\
-\tan(-\alpha)=-\tan\alpha\\
+\begin{align}
+\sin(-\alpha)=-\sin\alpha\nonumber\\
+\cos(-\alpha)=\cos\alpha\nonumber\\
+\tan(-\alpha)=-\tan\alpha\nonumber\\
+\end{align}
 $$
 
 #### 4.
 
 $$
-\sin(\pi-\alpha)=\sin\alpha\\
-\cos(\pi-\alpha)=-\cos\alpha\\
-\tan(\pi-\alpha)=-\tan\alpha\\
+\begin{align}
+\sin(\pi-\alpha)=\sin\alpha\nonumber\\
+\cos(\pi-\alpha)=-\cos\alpha\nonumber\\
+\tan(\pi-\alpha)=-\tan\alpha\nonumber\\
+\end{align}
 $$
 
 #### 5.
 
 $$
-\sin(\frac{\pi}{2}-\alpha)=\cos\alpha\\
-\cos(\frac{\pi}{2}-\alpha)=\sin\alpha\\
+\begin{align}
+\sin(\frac{\pi}{2}-\alpha)=\cos\alpha\nonumber\\
+\cos(\frac{\pi}{2}-\alpha)=\sin\alpha\nonumber\\
+\end{align}
 $$
 
 #### 6.
 
 $$
-\sin(\frac{\pi}{2}+\alpha)=\cos\alpha\\
-\cos(\frac{\pi}{2}+\alpha)=-\sin\alpha\\
+\begin{align}
+\sin(\frac{\pi}{2}+\alpha)=\cos\alpha\nonumber\\
+\cos(\frac{\pi}{2}+\alpha)=-\sin\alpha\nonumber\\
+\end{align}
 $$
 
 #### 绝招
 
 > **奇变偶不变，符号看象限。**象限怎么看？$\alpha$锐角看。
 
-对于任意形如$\sin(\alpha+\frac{k}{2}\pi)$或$\cos(\alpha+\frac{k}{2}\pi)\quad (k\in\Z)$的正弦或余弦三角函数式，有：
+对于任意形如$\sin(\alpha+\frac{k}{2}\pi)$或$\cos(\alpha+\frac{k}{2}\pi)\quad (k\in\mathbb{Z})$的正弦或余弦三角函数式，有：
 
-- 如果$k$是**偶数**，即$k\in \{a|a=2m,m\in\Z\}$，则**三角函数名不变**
+- 如果$k$是**偶数**，即$k\in \{a|a=2m,m\in\mathbb{Z}\}$，则**三角函数名不变**
 
-- 如果$k$是**奇数**，即$k\in \{a|a=2m+1,m\in\Z\}$，则**三角函数名改变**，即$\sin()$变成$\cos()$，$\cos()$变成$\sin()$。
+- 如果$k$是**奇数**，即$k\in \{a|a=2m+1,m\in\mathbb{Z}\}$，则**三角函数名改变**，即$\sin()$变成$\cos()$，$\cos()$变成$\sin()$。
 
 无论是否变三角函数名，原式括号内的东西都会变为$\alpha$，即刚才这一步操作去掉了括号内的$\frac{k}{2}\pi$。
 
