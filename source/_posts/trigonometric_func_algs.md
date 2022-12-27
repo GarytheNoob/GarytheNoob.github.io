@@ -72,69 +72,70 @@ $$
 
 ## 诱导公式
 
-#### 1. 
+### 1. 
 
 对任意$k\in\mathbb{Z}$，有：
-
 $$
 \begin{align}
-\sin(\alpha+2k\pi)=\sin\alpha\nonumber\\
-\cos(\alpha+2k\pi)=\cos\alpha\nonumber\\
-\tan(\alpha+2k\pi)=\tan\alpha\nonumber\\
+\sin(\alpha+2k\pi)&=\sin\alpha\nonumber\\
+\cos(\alpha+2k\pi)&=\cos\alpha\nonumber\\
+\tan(\alpha+2k\pi)&=\tan\alpha\nonumber\\
 \end{align}
 $$
 
-#### 2.
+### 2.
 
 $$
 \begin{align}
-\sin(\alpha+\pi)=-\sin\alpha\nonumber\\
-\cos(\alpha+\pi)=-\cos\alpha\nonumber\\
-\tan(\alpha+\pi)=\tan\alpha\nonumber\\
+\sin(\alpha+\pi)&=-\sin\alpha\nonumber\\
+\cos(\alpha+\pi)&=-\cos\alpha\nonumber\\
+\tan(\alpha+\pi)&=\tan\alpha\nonumber\\
 \end{align}
 $$
 
-#### 3.
+### 3.
 
 $$
 \begin{align}
-\sin(-\alpha)=-\sin\alpha\nonumber\\
-\cos(-\alpha)=\cos\alpha\nonumber\\
-\tan(-\alpha)=-\tan\alpha\nonumber\\
+\sin(-\alpha)&=-\sin\alpha\nonumber\\
+\cos(-\alpha)&=\cos\alpha\nonumber\\
+\tan(-\alpha)&=-\tan\alpha\nonumber\\
 \end{align}
 $$
 
-#### 4.
+### 4.
 
 $$
 \begin{align}
-\sin(\pi-\alpha)=\sin\alpha\nonumber\\
-\cos(\pi-\alpha)=-\cos\alpha\nonumber\\
-\tan(\pi-\alpha)=-\tan\alpha\nonumber\\
+\sin(\pi-\alpha)&=\sin\alpha\nonumber\\
+\cos(\pi-\alpha)&=-\cos\alpha\nonumber\\
+\tan(\pi-\alpha)&=-\tan\alpha\nonumber\\
 \end{align}
 $$
 
-#### 5.
+### 5.
 
 $$
 \begin{align}
-\sin(\frac{\pi}{2}-\alpha)=\cos\alpha\nonumber\\
-\cos(\frac{\pi}{2}-\alpha)=\sin\alpha\nonumber\\
+\sin(\frac{\pi}{2}-\alpha)&=\cos\alpha\nonumber\\
+\cos(\frac{\pi}{2}-\alpha)&=\sin\alpha\nonumber\\
 \end{align}
 $$
 
-#### 6.
+### 6.
 
 $$
 \begin{align}
-\sin(\frac{\pi}{2}+\alpha)=\cos\alpha\nonumber\\
-\cos(\frac{\pi}{2}+\alpha)=-\sin\alpha\nonumber\\
+\sin(\frac{\pi}{2}+\alpha)&=\cos\alpha\nonumber\\
+\cos(\frac{\pi}{2}+\alpha)&=-\sin\alpha\nonumber\\
 \end{align}
 $$
 
-#### 绝招
+### 绝招
 
-> **奇变偶不变，符号看象限。**象限怎么看？$\alpha$锐角看。
+有口诀云：
+
+> **奇变偶不变，符号看象限。** 象限怎么看？$\alpha$锐角看。
 
 对于任意形如$\sin(\alpha+\frac{k}{2}\pi)$或$\cos(\alpha+\frac{k}{2}\pi)\quad (k\in\mathbb{Z})$的正弦或余弦三角函数式，有：
 
@@ -146,11 +147,16 @@ $$
 
 接下来，将$\alpha$当成第一象限内的正角，无论题干说$\alpha$是第几象限角，统一将其看做第一象限角。
 
-然后，根据各象限内$\sin\alpha$或$\cos\alpha$的符号确定最终答案的符号。**注意：**此处确定的符号是化简前式子的符号。
+然后，根据各象限内$\sin\alpha$或$\cos\alpha$的符号确定最终答案的符号。**注意：**此处确定的符号是**化简前式子**的符号。
 
 
 
-##### 例子：化简$\sin(\frac{5\pi}{2}-\alpha)$
+#### 例子
+
+化简
+$$
+\sin(\frac{5\pi}{2}-\alpha)\tag{A}
+$$
 
 这个例子不形如$\sin(\alpha+\frac{k}{2}\pi)$，所以我们需要通过诱导公式**3.**，将其变成：
 $$
@@ -162,7 +168,9 @@ $$
 $$
 在这个式子中我们没有确定$\cos \alpha$前的符号，所以接下来我们将确定。
 
-观察$(\text I)$式，假设$\alpha$是第一象限角，则$(\alpha-\frac{5\pi}{2})$是第四象限角，根据***各象限内三角函数值符号***，在第四象限内角的正弦值小于0，所以应在$(\text{II})$式的$\cos\alpha$前的符号取符号，即为：
+**此时化简前式子是$(\text I)$式而不是$(\text A)$式，因为$(\text A)$式并不形如$\sin(\alpha+\frac{k}{2}\pi)$而$(\text I)$式形如。**
+
+观察$(\text I)$式，假设$\alpha$是第一象限角，则$(\alpha-\frac{5\pi}{2})$是第四象限角，根据 ***各象限内三角函数值符号*** ，在第四象限内角的正弦值小于0，所以应在$(\text{II})$式的$\cos\alpha$前的符号取负号，即为：
 $$
 \begin{align}
 &-(-cos\alpha)\\
