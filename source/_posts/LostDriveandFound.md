@@ -1,6 +1,5 @@
 ---
 title: 找回我丢失的硬盘
-author: GarytheNoob
 ---
 
 ### 介绍
