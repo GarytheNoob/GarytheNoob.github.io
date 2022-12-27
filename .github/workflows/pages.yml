@@ -25,7 +25,10 @@ jobs:
       - name: Install Dependencies
         run: npm install
       - name: Install Pandoc
-        run: apt install pandoc -y
+        run: |
+          sudo apt update
+          sudo apt install pandoc -y
+          sudo apt clean -y
       - name: Install hexo-cli
         run: npm install -g hexo-cli
       - name: Build
