@@ -438,6 +438,8 @@ footer:
     # Data source. If use leancloud, you need to set the parameter in `web_analytics: leancloud`
     # Options: busuanzi | leancloud
     source: "busuanzi"
+  beian:
+    enable: false
 
 
 #---------------------------
