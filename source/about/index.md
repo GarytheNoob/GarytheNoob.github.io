@@ -30,7 +30,7 @@ date: 2020-12-27 14:00
 - 邮箱：`garythenoob@outlook.com`
 - 哔哩哔哩私信[`彩笔Gray`](https://space.bilibili.com/448794782)（←点击进入我的个人空间）
 - [GitHub个人主页](https://github.com/GarytheNoob)
-- Telegram [@GarytheNoob](t.me/garythenoob)
+- Telegram [@GarytheNoob](https://t.me/garythenoob)
 
 
 
