@@ -1,9 +1,9 @@
 name: Pages
 
 on:
-  push:
-    branches:
-      - master # default branch
+#  push:
+#    branches:
+#      - master # default branch
   workflow_dispatch:
 
 jobs:
