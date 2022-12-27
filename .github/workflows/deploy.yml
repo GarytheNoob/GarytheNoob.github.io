@@ -1,6 +1,10 @@
 name: Deploy
 
-on: [push]
+on:
+  push:
+    branches:
+      - master # default branch
+  workflow_dispatch:
 
 jobs:
   build:
