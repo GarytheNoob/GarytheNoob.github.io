@@ -98,8 +98,8 @@ ignore:
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
 
-# theme: fluid
-remote_theme: fluid-dev/hexo-theme-fluid
+theme: fluid
+# remote_theme: fluid-dev/hexo-theme-fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
