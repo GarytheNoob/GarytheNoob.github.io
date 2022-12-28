@@ -5,11 +5,13 @@ mathjax: true
 math: true
 categories:
 - 学习
-exerpt: 高中的三角函数知识点太多太杂了！为此我在这里整理了一下……
+tags:
+- 数学
 ---
 
-### This Page Is Unfinished | 本页面未完成
+高中数学三角函数的知识点太难了！为此我整理了一下。
 
+<!-- more -->
 
 ## 常见三角函数值
 
