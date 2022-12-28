@@ -2,6 +2,7 @@
 title: 关于
 author: GarytheNoob
 date: 2020-12-27 14:00
+layout: about
 ---
 
 **如果您根据某个U盘/移动硬盘内的指引来到了这个页面，那么您是捡到了我遗失的U盘/移动硬盘。**
