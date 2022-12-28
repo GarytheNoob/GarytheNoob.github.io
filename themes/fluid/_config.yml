@@ -713,12 +713,11 @@ post:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: disqus
-
+    type: giscus
 
 #---------------------------
 # 评论插件
@@ -858,10 +857,10 @@ cusdis:
 # Based on GitHub Discussions, similar to Utterances
 # See: https://giscus.app/
 giscus:
-  repo:
-  repo-id:
-  category:
-  category-id:
+  repo: GarytheNoob/GarytheNoob.github.io
+  repo-id: R_kgDOIrhd_Q
+  category: Announcements
+  category-id: DIC_kwDOIrhd_c4CTSz6
   theme-light: light
   theme-dark: dark
   mapping: pathname
@@ -1017,11 +1016,11 @@ links:
   # 评论插件
   # Comment plugin
   comments:
-    enable: false
+    enable: true
     # 指定的插件，需要同时设置对应插件的必要参数
     # The specified plugin needs to set the necessary parameters at the same time
     # Options: utterances | disqus | gitalk | valine | waline | changyan | livere | remark42 | twikoo | cusdis | giscus
-    type: disqus
+    type: giscus
 
 
 #---------------------------
