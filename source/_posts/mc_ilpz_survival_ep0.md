@@ -2,11 +2,12 @@
 title: 【新系列】【ilpz存档】Ep.0 继承了将近3年前玩的MC服务器存档……
 author: GarytheNoob
 categories:
-- Game
+- 游戏
 - Minecraft
 tags:
 - Minecraft
 - 生存更新
+exerpt: 在教室里看着同学们抢着用希沃玩MC，突发恶疾，想着开一个原版坑玩玩。但是从零开始太无聊，于是想起来3年前的一个服务器……
 ---
 
 ## 起因

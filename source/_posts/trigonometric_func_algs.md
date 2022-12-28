@@ -3,6 +3,9 @@ title: "三角函数宝典"
 author: GarytheNoob
 mathjax: true
 math: true
+categories:
+- 学习
+exerpt: 高中的三角函数知识点太多太杂了！为此我在这里整理了一下……
 ---
 
 ### This Page Is Unfinished | 本页面未完成
