@@ -11,7 +11,7 @@ hide: true
 你可以通过以下的任意一种方式来联系我。
 
 - 短信：`+86 18688999302`
-- 邮箱：`garythenoob@qq.com`
+- 邮箱：`garythenoob@outlook.com`
 - Telegram：@GarytheNoob
   
   {% btn http://t.me/garythenoob, 我的Telegram账户, 点击向我发消息 %}
