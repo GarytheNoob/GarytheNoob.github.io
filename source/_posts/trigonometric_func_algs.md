@@ -1,6 +1,7 @@
 ---
 title: "三角函数宝典"
 author: GarytheNoob
+date: 2022/12/27
 mathjax: true
 math: true
 categories:

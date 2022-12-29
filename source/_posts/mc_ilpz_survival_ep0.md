@@ -1,7 +1,7 @@
 ---
 title: 【新系列】【ilpz存档】Ep.0 继承了将近3年前玩的MC服务器存档……
 date: 2022/12/28
-updated: 2022/12/29
+updated: 2022/12/29 8:00
 author: GarytheNoob
 categories:
 - 游戏
