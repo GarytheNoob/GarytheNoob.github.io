@@ -1,7 +1,7 @@
 ---
 title: 【ilpz存档】Ep.1 随便干了点东西
 author: GarytheNoob
-date: 2022/12/29
+date: 2022/12/29 14:00
 categories:
 - 游戏
 - Minecraft
@@ -62,7 +62,7 @@ PS：左边的钻石块啥的是腐竹当时发存档的时候自己摆的（纪
 
 ![](https://raw.githubusercontent.com/GarytheNoob/Images/main/scr/mcep/ep1/ice_lane.png)
 
-从这里飞过去，就到了另一个很复杂的「铁路枢纽」，在这里有我里的路牌。
+从这里飞过去，就到了另一个很复杂的「铁路枢纽」，在这里有我立的路牌。
 
 ![](https://raw.githubusercontent.com/GarytheNoob/Images/main/scr/mcep/ep1/nether_sign.png)
 
@@ -139,5 +139,7 @@ PS：左边的钻石块啥的是腐竹当时发存档的时候自己摆的（纪
 
 {% note light %}
 今天先更这么多罢，猪肉塔还没造呢，等下一期咯。
-{% endnote %}
 
+觉得要做的事蛮多的，比如升级到`1.16`了，还没有去挖远古残骸，也没有去建猪灵交易……还有，很多基岩下层的地狱门还亮着，所以即使基岩上层有对应的门了，也还是会串门（找个时间把基岩下层的门熄灭了）。
+
+{% endnote %}
