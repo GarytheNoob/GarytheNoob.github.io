@@ -29,7 +29,7 @@ tags:
 
 $$
 \begin{align}
-\theta\in[2k\pi,2k\pi+\frac{\pi}{2}]&,\ k\in\mathbb{Z}:\nonumber\\
+\theta\in\left[2k\pi,2k\pi+\frac{\pi}{2}\right]&,\ k\in\mathbb{Z}:\nonumber\\
 \sin\theta>0\nonumber\\
 \cos\theta>0\nonumber\\
 \tan\theta>0\nonumber\\
@@ -40,7 +40,7 @@ $$
 
 $$
 \begin{align}
-\theta\in[2k\pi+\frac{\pi}{2},2k\pi+\pi]&,\ k\in\mathbb{Z}:\nonumber\\
+\theta\in\left[2k\pi+\frac{\pi}{2},2k\pi+\pi\right]&,\ k\in\mathbb{Z}:\nonumber\\
 \sin\theta>0\nonumber\\
 \cos\theta<0\nonumber\\
 \tan\theta<0\nonumber\\
@@ -51,7 +51,7 @@ $$
 
 $$
 \begin{align}
-\theta\in[2k\pi-\pi,2k\pi-\frac{\pi}{2}]&,\ k\in\mathbb{Z}:\nonumber\\
+\theta\in\left[2k\pi-\pi,2k\pi-\frac{\pi}{2}\right]&,\ k\in\mathbb{Z}:\nonumber\\
 \sin\theta<0\nonumber\\
 \cos\theta<0\nonumber\\
 \tan\theta>0\nonumber\\
@@ -62,7 +62,7 @@ $$
 
 $$
 \begin{align}
-\theta\in[2k\pi-\frac{\pi}{2},2k\pi]&,\ k\in\mathbb{Z}:\nonumber\\
+\theta\in\left[2k\pi-\frac{\pi}{2},2k\pi\right]&,\ k\in\mathbb{Z}:\nonumber\\
 \sin\theta<0\nonumber\\
 \cos\theta<0\nonumber\\
 \tan\theta>0\nonumber\\
@@ -123,8 +123,8 @@ $$
 
 $$
 \begin{align}
-\sin(\frac{\pi}{2}-\alpha)&=\cos\alpha\nonumber\\
-\cos(\frac{\pi}{2}-\alpha)&=\sin\alpha\nonumber\\
+\sin\left(\frac{\pi}{2}-\alpha\right)&=\cos\alpha\nonumber\\
+\cos\left(\frac{\pi}{2}-\alpha\right)&=\sin\alpha\nonumber\\
 \end{align}
 $$
 
@@ -132,8 +132,8 @@ $$
 
 $$
 \begin{align}
-\sin(\frac{\pi}{2}+\alpha)&=\cos\alpha\nonumber\\
-\cos(\frac{\pi}{2}+\alpha)&=-\sin\alpha\nonumber\\
+\sin\left(\frac{\pi}{2}+\alpha\right)&=\cos\alpha\nonumber\\
+\cos\left(\frac{\pi}{2}+\alpha\right)&=-\sin\alpha\nonumber\\
 \end{align}
 $$
 
@@ -161,22 +161,22 @@ $$
 
 化简
 $$
-\sin(\frac{5\pi}{2}-\alpha)\tag{A}
+\sin\left(\frac{5\pi}{2}-\alpha\right)\tag{A}
 $$
 
-这个例子不形如$\sin(\alpha+\frac{k}{2}\pi)$，所以我们需要通过诱导公式**3.**，将其变成：
+这个例子不形如$\sin\left(\alpha+\frac{k}{2}\pi\right)$，所以我们需要通过诱导公式**3.**，将其变成：
 $$
--\sin(\alpha-\frac{5\pi}{2})\tag{I}
+-\sin\left(\alpha-\frac{5\pi}{2}\right)\tag{I}
 $$
-然后对于$(\text I)$式，它形如$\sin(\alpha+\frac{k}{2}\pi)$，其中$k=-5$，是奇数，所以改变三角函数名，**不确定整个式子前的符号**：
+然后对于$(\text I)$式，它形如$\sin\left(\alpha+\frac{k}{2}\pi\right)$，其中$k=-5$，是奇数，所以改变三角函数名，**不确定整个式子前的符号**：
 $$
 -(\pm\cos\alpha)\tag{II}
 $$
 在这个式子中我们没有确定$\cos \alpha$前的符号，所以接下来我们将确定。
 
-**此时化简前式子是$(\text I)$式而不是$(\text A)$式，因为$(\text A)$式并不形如$\sin(\alpha+\frac{k}{2}\pi)$而$(\text I)$式形如。**
+**此时化简前式子是$(\text I)$式而不是$(\text A)$式，因为$(\text A)$式并不形如$\sin\left(\alpha+\frac{k}{2}\pi\right)$而$(\text I)$式形如。**
 
-观察$(\text I)$式，假设$\alpha$是第一象限角，则$(\alpha-\frac{5\pi}{2})$是第四象限角，根据 ***各象限内三角函数值符号*** ，在第四象限内角的正弦值小于0，所以应在$(\text{II})$式的$\cos\alpha$前的符号取负号，即为：
+观察$(\text I)$式，假设$\alpha$是第一象限角，则$\left(\alpha-\frac{5\pi}{2}\right)$是第四象限角，根据 ***各象限内三角函数值符号*** ，在第四象限内角的正弦值小于0，所以应在$(\text{II})$式的$\cos\alpha$前的符号取负号，即为：
 $$
 \begin{align}
 &-(-cos\alpha)\\
