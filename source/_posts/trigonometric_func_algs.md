@@ -8,6 +8,7 @@ categories:
 - 学习
 tags:
 - 数学
+- 未完成
 ---
 
 高中数学三角函数的知识点太难了！为此我整理了一下。
@@ -70,15 +71,19 @@ $$
 $$
 
 ## 同角三角函数关系
+$$
+\begin{align}
+\sin^2\alpha+\cos^2\alpha&=1 \tag{R1}\\
+\frac{\sin\alpha}{\cos\alpha}&=\tan\alpha\nonumber \tag{R2}\\
+\end{align}
+$$
 
-- $\sin^2\alpha+\cos^2\alpha=1$
-- $\frac{\sin\alpha}{\cos\alpha}=\tan\alpha$
 
 
 
 ## 诱导公式
 
-### 1. 
+### 1.
 
 对任意$k\in\mathbb{Z}$，有：
 $$
@@ -183,5 +188,152 @@ $$
 =&\cos\alpha
 \end{align}
 $$
+
+{% note light %}
+2023-01-06更新：
+{% endnote %}
+## 三角恒等变换
+
+这是三角函数章节的最难之处！
+
+### 两角和与差的正弦、余弦和正切公式
+
+在这里我将不使用课本给出的推导公式技巧，而是一股脑全部给出，所以接好！
+
+{% note info %}
+由于$\LaTeX$（事实上是$\KaTeX$）的渲染问题，无法打出课本中形如$\text S_{(\alpha+\beta)}$这样的公式标记，所以我会用$\text{S+}$等来替代，如果有格式不统一还请谅解，我目前无法解决（欢迎提供解决方案）。
+{% endnote $}
+
+#### 正弦
+
+$$
+\begin{align}
+\sin(\alpha+\beta)&=\sin\alpha\cos\beta+\cos\alpha\sin\beta \tag{S+}\\
+\sin(\alpha-\beta)&=\sin\alpha\cos\beta-\cos\alpha\sin\beta \tag{S-}\\
+\end{align}
+$$
+
+#### 余弦
+
+$$
+\begin{align}
+\cos(\alpha+\beta)&=\cos\alpha\cos\beta-\sin\alpha\sin\beta \tag{C+}\\
+\cos(\alpha-\beta)&=\cos\alpha\cos\beta+\sin\alpha\sin\beta \tag{C-}\\
+\end{align}
+$$
+
+{% note secodary %}
+
+来自程哥的口诀：
+
+> 差的余弦——ココ减ササ
+
+{% endnote %}
+#### 正切
+
+$$
+\begin{align}
+\tan(\alpha+\beta)&=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta} \tag{T+}\\
+\tan(\alpha-\beta)&=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta} \tag{T-}\\
+\end{align}
+$$
+
+### （二）倍角公式
+
+令上述6个公式中的$\beta$等于$\alpha$，我们可以得到：
+
+$$
+\begin{align}
+\sin2\alpha&=2\sin\alpha\cos\alpha \tag{S2a}\\
+\cos2\alpha&=\cos^2\alpha-\sin^2\alpha \tag{C2a}\\
+\tan2\alpha&=\frac{2\tan\alpha}{1-\tan^2\alpha} \tag{T2a}\\
+\end{align}
+$$
+
+对于$\text{(C2a)}$，如果根据$\text{(R1)}$将其变形，可得：
+
+$$
+\begin{align}
+\cos2\alpha&=1-2\sin^2\alpha\nonumber\\
+&=2\cos^2\alpha-1\nonumber\\
+\end{align}
+$$
+
+那么，根据这两个变形后的式子，可以推出两个降次升角公式，只需简单地进行变形：
+
+$$
+\begin{align}
+\sin^2\alpha&=\frac{1-\cos2\alpha}{2}\nonumber\\
+\cos^2\alpha&=\frac{1+\sin2\alpha}{2}\nonumber\\
+\end{align}
+$$
+
+这两个公式就是**降次升角公式**。如你所见，从等号左边向右边运用公式的时候，三角函数的次数降了而角的大小翻倍了。对于这个公式只需要记住一个口诀：
+
+> 正减余加
+
+相信你能知道这是什么意思。
+
+此外，正弦和余弦的倍角公式还可以用正切函数表示：
+
+$$
+\begin{align}
+\sin2\alpha&=\frac{2\tan\alpha}{1+\tan^2\alpha}\nonumber\\
+\cos2\alpha&=\frac{1-\tan^2\alpha}{1+\tan^2\alpha}\nonumber\\
+\end{align}
+$$
+
+可能你已经发现了，上述这两个公式相除就能得到$\text{(T2a)}$公式，所以希望你记得住！
+
+到这里，你应该可以完全记住倍角公式和它们的**简单**推导了。千万别忘记，因为我们即将进入最难（难绷）的一节——
+
+### 《简单》的三角恒等变换
+
+这可能是高一数学听着最迷糊的一个课时，公式量很大！
+
+刚刚我们认识了降次升角公式，现在我们再将其进行拓展。首先，将$\alpha$和$2\alpha$都缩小至原来的一半，同时可以将正弦版本和余弦版本相除得到正切版本的降次升角公式，再将两边同时开方：
+
+$$
+\begin{align}
+\sin\frac{\alpha}{2}&=\pm\sqrt{\frac{1-\cos\alpha}{2}}\nonumber\\
+\cos\frac{\alpha}{2}&=\pm\sqrt{\frac{1+\cos\alpha}{2}}\nonumber\\
+\tan\frac{\alpha}{2}&=\pm\sqrt{\frac{1-\cos\alpha}{1+\cos\alpha}}\nonumber\\
+\end{align}
+$$
+
+{% note info %}
+这些公式按照课本称作**半角公式**，符号由$\frac{\alpha}{2}$所在象限决定。
+{% endnote %}
+
+注意到，**正减余加**的口诀在这里仍然适用！~~现在知道记什么了吧~~
+
+#### 辅助角公式
+
+听起来可能很迷糊，但是辅助角公式做的事很简单：就是把形如$a\sin x+b\cos x$的式子（注意是**同角三角函数**）转化为$A\sin(x + \phi)$的形式。转化为后者之后就可以运用诱导公式或者下一节(?)中分析的结论来解题了。
+
+辅助角公式：
+
+$$
+\begin{align}
+a\sin x+b\cos x&=\sqrt{a^2+b^2}\sin(x+\phi)\nonumber\\
+&=\sqrt{a^2+b^2}\cos(x-\theta)\nonumber\\
+\text{其中}\tan\phi=\frac{b}{a}&\text{, }\tan\theta=\frac{a}{b}\nonumber\\
+\end{align}
+$$
+
+好吧，我承认，这样看起来有点抽象，所以让我们实际感受一下：
+
+$$
+\begin{align}
+\sin x+\cos x=\sqrt{2}\sin(x+\frac{\pi}{4})\nonumber\\
+\sqrt{3}\sin x+\cos x=2\sin(x+\frac{\pi}{3})\nonumber\\
+\end{align}
+$$
+
+你可以自己试着推导一下，例如上面第二个式子。
+
+{% note info %}
+如果我想的话，在这里应该会把推导过程写出来。但是我有点懒，所以下次吧。如果你想看过程，可以移步搜题软件。
+{% endnote %}
 
 ### 本页面未完成 | This Page is Unfinished
