@@ -1,7 +1,8 @@
 ---
 title: "三角函数宝典"
 author: GarytheNoob
-date: 2022/12/27
+date: 2022/12/27 12:00
+update: 2023/01/06 22:00
 mathjax: true
 math: true
 categories:
@@ -202,7 +203,7 @@ $$
 
 {% note info %}
 由于$\LaTeX$（事实上是$\KaTeX$）的渲染问题，无法打出课本中形如$\text S_{(\alpha+\beta)}$这样的公式标记，所以我会用$\text{S+}$等来替代，如果有格式不统一还请谅解，我目前无法解决（欢迎提供解决方案）。
-{% endnote $}
+{% endnote %}
 
 #### 正弦
 
