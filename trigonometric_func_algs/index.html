@@ -24,7 +24,7 @@
 <meta property="og:description" content="高中数学三角函数的知识点太难了！为此我整理了一下。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2022-12-27T12:00:00.000Z">
-<meta property="article:modified_time" content="2023-01-06T14:15:00.860Z">
+<meta property="article:modified_time" content="2023-01-06T14:57:23.167Z">
 <meta property="article:author" content="GarytheNoob">
 <meta property="article:tag" content="数学">
 <meta property="article:tag" content="未完成">
@@ -235,7 +235,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          6.5k 字
+          6.8k 字
         
       </span>
     
@@ -246,7 +246,7 @@
         
         
         
-          54 分钟
+          57 分钟
         
       </span>
     
@@ -486,21 +486,18 @@
 <p>这是三角函数章节的最难之处！</p>
 <h3 id="两角和与差的正弦余弦和正切公式">两角和与差的正弦、余弦和正切公式</h3>
 <p>在这里我将不使用课本给出的推导公式技巧，而是一股脑全部给出，所以接好！</p>
-<div class="note note-info">
-            <p>由于<span class="math inline">\(\LaTeX\)</span>的渲染问题，无法打出课本中形如<span class="math inline">\(\text S_{(\alpha+\beta)}\)</span>这样的公式标记，所以我会用<span class="math inline">\(\text{S+}\)</span>等来替代，如果有格式不统一还请谅解，我目前无法解决（欢迎提供解决方案）。</p>
-          </div>
 <h4 id="正弦">正弦</h4>
 <p><span class="math display">\[
 \begin{align}
-\sin(\alpha+\beta)&amp;=\sin\alpha\cos\beta+\cos\alpha\sin\beta \tag{S+}\\
-\sin(\alpha-\beta)&amp;=\sin\alpha\cos\beta-\cos\alpha\sin\beta \tag{S-}\\
+\sin(\alpha+\beta)&amp;=\sin\alpha\cos\beta+\cos\alpha\sin\beta \tag{$S_{(\alpha+\beta)}$}\\
+\sin(\alpha-\beta)&amp;=\sin\alpha\cos\beta-\cos\alpha\sin\beta \tag{$S_{(\alpha-\beta)}$}\\
 \end{align}
 \]</span></p>
 <h4 id="余弦">余弦</h4>
 <p><span class="math display">\[
 \begin{align}
-\cos(\alpha+\beta)&amp;=\cos\alpha\cos\beta-\sin\alpha\sin\beta \tag{C+}\\
-\cos(\alpha-\beta)&amp;=\cos\alpha\cos\beta+\sin\alpha\sin\beta \tag{C-}\\
+\cos(\alpha+\beta)&amp;=\cos\alpha\cos\beta-\sin\alpha\sin\beta \tag{$C_{(\alpha+\beta)}$}\\
+\cos(\alpha-\beta)&amp;=\cos\alpha\cos\beta+\sin\alpha\sin\beta \tag{$C_{(\alpha-\beta)}$}\\
 \end{align}
 \]</span></p>
 <div class="note note-secodary">
@@ -509,20 +506,20 @@
 <h4 id="正切">正切</h4>
 <p><span class="math display">\[
 \begin{align}
-\tan(\alpha+\beta)&amp;=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta} \tag{T+}\\
-\tan(\alpha-\beta)&amp;=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta} \tag{T-}\\
+\tan(\alpha+\beta)&amp;=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta} \tag{$T_{(\alpha+\beta)}$}\\
+\tan(\alpha-\beta)&amp;=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta} \tag{$T_{(\alpha-\beta)}$}\\
 \end{align}
 \]</span></p>
 <h3 id="二倍角公式">（二）倍角公式</h3>
 <p>令上述6个公式中的<span class="math inline">\(\beta\)</span>等于<span class="math inline">\(\alpha\)</span>，我们可以得到：</p>
 <p><span class="math display">\[
 \begin{align}
-\sin2\alpha&amp;=2\sin\alpha\cos\alpha \tag{S2a}\\
-\cos2\alpha&amp;=\cos^2\alpha-\sin^2\alpha \tag{C2a}\\
-\tan2\alpha&amp;=\frac{2\tan\alpha}{1-\tan^2\alpha} \tag{T2a}\\
+\sin2\alpha&amp;=2\sin\alpha\cos\alpha \tag{$S_{2\alpha}$}\\
+\cos2\alpha&amp;=\cos^2\alpha-\sin^2\alpha \tag{$C_{2\alpha}$}\\
+\tan2\alpha&amp;=\frac{2\tan\alpha}{1-\tan^2\alpha} \tag{$T_{2\alpha}$}\\
 \end{align}
 \]</span></p>
-<p>对于<span class="math inline">\(\text{(C2a)}\)</span>，如果根据<span class="math inline">\(\text{(R1)}\)</span>将其变形，可得：</p>
+<p>对于<span class="math inline">\((C_{2\alpha})\)</span>，如果根据<span class="math inline">\(\text{(R1)}\)</span>将其变形，可得：</p>
 <p><span class="math display">\[
 \begin{align}
 \cos2\alpha&amp;=1-2\sin^2\alpha\nonumber\\
@@ -548,7 +545,7 @@
 \cos2\alpha&amp;=\frac{1-\tan^2\alpha}{1+\tan^2\alpha}\nonumber\\
 \end{align}
 \]</span></p>
-<p>可能你已经发现了，上述这两个公式相除就能得到<span class="math inline">\(\text{(T2a)}\)</span>公式，所以希望你记得住！</p>
+<p>可能你已经发现了，上述这两个公式相除就能得到<span class="math inline">\((T_{2\alpha})\)</span>公式，所以希望你记得住！</p>
 <p>到这里，你应该可以完全记住倍角公式和它们的<strong>简单</strong>推导了。千万别忘记，因为我们即将进入最难（难绷）的一节——</p>
 <h3 id="简单的三角恒等变换">《简单》的三角恒等变换</h3>
 <p>这可能是高一数学听着最迷糊的一个课时，公式量很大！</p>
@@ -583,7 +580,7 @@ a\sin x+b\cos x&amp;=\sqrt{a^2+b^2}\sin(x+\phi)\nonumber\\
 \]</span></p>
 <p>你可以自己试着推导一下，例如上面第二个式子。</p>
 <div class="note note-info">
-            <p>如果我想的话，在这里应该会把推导过程写出来。但是我有点懒，所以下次吧。如果你想看过程，可以移步搜题软件。</p>
+            <p>推导： <span class="math display">\[\begin{align}&amp;\sqrt{3}\sin x+\cos x\nonumber\\=&amp;2(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x)\nonumber\\\because&amp; \frac{\sqrt{3}}{2} = \sin\frac{\pi}{3}, \frac{1}{2}=\cos\frac{\pi}{3}\nonumber\\\therefore&amp; \text{原式}=2(\sin x\sin\frac{\pi}{3} + \cos x\cos\frac{\pi}{3})\nonumber\\&amp;\qquad=2\sin(x+\frac{\pi}{3})\nonumber\\\end{align}\]</span></p>
           </div>
 <h3 id="本页面未完成-this-page-is-unfinished">本页面未完成 | This Page is Unfinished</h3>
 
