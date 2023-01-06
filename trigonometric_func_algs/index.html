@@ -23,10 +23,11 @@
 <meta property="og:site_name" content="Gary&#39;s Page">
 <meta property="og:description" content="高中数学三角函数的知识点太难了！为此我整理了一下。">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-12-27T00:00:00.000Z">
-<meta property="article:modified_time" content="2022-12-31T13:19:49.615Z">
+<meta property="article:published_time" content="2022-12-27T12:00:00.000Z">
+<meta property="article:modified_time" content="2023-01-06T14:09:49.664Z">
 <meta property="article:author" content="GarytheNoob">
 <meta property="article:tag" content="数学">
+<meta property="article:tag" content="未完成">
 <meta name="twitter:card" content="summary_large_image">
   
   
@@ -222,8 +223,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-12-27 00:00" pubdate>
-          2022年12月27日 凌晨
+        <time datetime="2022-12-27 12:00" pubdate>
+          2022年12月27日 中午
         </time>
       </span>
     
@@ -234,7 +235,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          3.7k 字
+          6.5k 字
         
       </span>
     
@@ -245,7 +246,7 @@
         
         
         
-          31 分钟
+          54 分钟
         
       </span>
     
@@ -396,10 +397,12 @@
 \end{align}
 \]</span></p>
 <h2 id="同角三角函数关系">同角三角函数关系</h2>
-<ul>
-<li><span class="math inline">\(\sin^2\alpha+\cos^2\alpha=1\)</span></li>
-<li><span class="math inline">\(\frac{\sin\alpha}{\cos\alpha}=\tan\alpha\)</span></li>
-</ul>
+<p><span class="math display">\[
+\begin{align}
+\sin^2\alpha+\cos^2\alpha&amp;=1 \tag{R1}\\
+\frac{\sin\alpha}{\cos\alpha}&amp;=\tan\alpha\nonumber \tag{R2}\\
+\end{align}
+\]</span></p>
 <h2 id="诱导公式">诱导公式</h2>
 <h3 id="section">1.</h3>
 <p>对任意<span class="math inline">\(k\in\mathbb{Z}\)</span>，有： <span class="math display">\[
@@ -476,6 +479,112 @@
 =&amp;\cos\alpha
 \end{align}
 \]</span></p>
+<div class="note note-light">
+            <p>2023-01-06更新：</p>
+          </div>
+<h2 id="三角恒等变换">三角恒等变换</h2>
+<p>这是三角函数章节的最难之处！</p>
+<h3 id="两角和与差的正弦余弦和正切公式">两角和与差的正弦、余弦和正切公式</h3>
+<p>在这里我将不使用课本给出的推导公式技巧，而是一股脑全部给出，所以接好！</p>
+<div class="note note-info">
+            <p>由于<span class="math inline">\(\LaTeX\)</span>（事实上是<span class="math inline">\(\KaTeX\)</span>）的渲染问题，无法打出课本中形如<span class="math inline">\(\text S_{(\alpha+\beta)}\)</span>这样的公式标记，所以我会用<span class="math inline">\(\text{S+}\)</span>等来替代，如果有格式不统一还请谅解，我目前无法解决（欢迎提供解决方案）。</p>
+          </div>
+<h4 id="正弦">正弦</h4>
+<p><span class="math display">\[
+\begin{align}
+\sin(\alpha+\beta)&amp;=\sin\alpha\cos\beta+\cos\alpha\sin\beta \tag{S+}\\
+\sin(\alpha-\beta)&amp;=\sin\alpha\cos\beta-\cos\alpha\sin\beta \tag{S-}\\
+\end{align}
+\]</span></p>
+<h4 id="余弦">余弦</h4>
+<p><span class="math display">\[
+\begin{align}
+\cos(\alpha+\beta)&amp;=\cos\alpha\cos\beta-\sin\alpha\sin\beta \tag{C+}\\
+\cos(\alpha-\beta)&amp;=\cos\alpha\cos\beta+\sin\alpha\sin\beta \tag{C-}\\
+\end{align}
+\]</span></p>
+<div class="note note-secodary">
+            <p>来自程哥的口诀：</p><blockquote><p>差的余弦——ココ减ササ</p></blockquote>
+          </div>
+<h4 id="正切">正切</h4>
+<p><span class="math display">\[
+\begin{align}
+\tan(\alpha+\beta)&amp;=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta} \tag{T+}\\
+\tan(\alpha-\beta)&amp;=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta} \tag{T-}\\
+\end{align}
+\]</span></p>
+<h3 id="二倍角公式">（二）倍角公式</h3>
+<p>令上述6个公式中的<span class="math inline">\(\beta\)</span>等于<span class="math inline">\(\alpha\)</span>，我们可以得到：</p>
+<p><span class="math display">\[
+\begin{align}
+\sin2\alpha&amp;=2\sin\alpha\cos\alpha \tag{S2a}\\
+\cos2\alpha&amp;=\cos^2\alpha-\sin^2\alpha \tag{C2a}\\
+\tan2\alpha&amp;=\frac{2\tan\alpha}{1-\tan^2\alpha} \tag{T2a}\\
+\end{align}
+\]</span></p>
+<p>对于<span class="math inline">\(\text{(C2a)}\)</span>，如果根据<span class="math inline">\(\text{(R1)}\)</span>将其变形，可得：</p>
+<p><span class="math display">\[
+\begin{align}
+\cos2\alpha&amp;=1-2\sin^2\alpha\nonumber\\
+&amp;=2\cos^2\alpha-1\nonumber\\
+\end{align}
+\]</span></p>
+<p>那么，根据这两个变形后的式子，可以推出两个降次升角公式，只需简单地进行变形：</p>
+<p><span class="math display">\[
+\begin{align}
+\sin^2\alpha&amp;=\frac{1-\cos2\alpha}{2}\nonumber\\
+\cos^2\alpha&amp;=\frac{1+\sin2\alpha}{2}\nonumber\\
+\end{align}
+\]</span></p>
+<p>这两个公式就是<strong>降次升角公式</strong>。如你所见，从等号左边向右边运用公式的时候，三角函数的次数降了而角的大小翻倍了。对于这个公式只需要记住一个口诀：</p>
+<blockquote>
+<p>正减余加</p>
+</blockquote>
+<p>相信你能知道这是什么意思。</p>
+<p>此外，正弦和余弦的倍角公式还可以用正切函数表示：</p>
+<p><span class="math display">\[
+\begin{align}
+\sin2\alpha&amp;=\frac{2\tan\alpha}{1+\tan^2\alpha}\nonumber\\
+\cos2\alpha&amp;=\frac{1-\tan^2\alpha}{1+\tan^2\alpha}\nonumber\\
+\end{align}
+\]</span></p>
+<p>可能你已经发现了，上述这两个公式相除就能得到<span class="math inline">\(\text{(T2a)}\)</span>公式，所以希望你记得住！</p>
+<p>到这里，你应该可以完全记住倍角公式和它们的<strong>简单</strong>推导了。千万别忘记，因为我们即将进入最难（难绷）的一节——</p>
+<h3 id="简单的三角恒等变换">《简单》的三角恒等变换</h3>
+<p>这可能是高一数学听着最迷糊的一个课时，公式量很大！</p>
+<p>刚刚我们认识了降次升角公式，现在我们再将其进行拓展。首先，将<span class="math inline">\(\alpha\)</span>和<span class="math inline">\(2\alpha\)</span>都缩小至原来的一半，同时可以将正弦版本和余弦版本相除得到正切版本的降次升角公式，再将两边同时开方：</p>
+<p><span class="math display">\[
+\begin{align}
+\sin\frac{\alpha}{2}&amp;=\pm\sqrt{\frac{1-\cos\alpha}{2}}\nonumber\\
+\cos\frac{\alpha}{2}&amp;=\pm\sqrt{\frac{1+\cos\alpha}{2}}\nonumber\\
+\tan\frac{\alpha}{2}&amp;=\pm\sqrt{\frac{1-\cos\alpha}{1+\cos\alpha}}\nonumber\\
+\end{align}
+\]</span></p>
+<div class="note note-info">
+            <p>这些公式按照课本称作<strong>半角公式</strong>，符号由<span class="math inline">\(\frac{\alpha}{2}\)</span>所在象限决定。</p>
+          </div>
+<p>注意到，<strong>正减余加</strong>的口诀在这里仍然适用！<del>现在知道记什么了吧</del></p>
+<h4 id="辅助角公式">辅助角公式</h4>
+<p>听起来可能很迷糊，但是辅助角公式做的事很简单：就是把形如<span class="math inline">\(a\sin x+b\cos x\)</span>的式子（注意是<strong>同角三角函数</strong>）转化为<span class="math inline">\(A\sin(x + \phi)\)</span>的形式。转化为后者之后就可以运用诱导公式或者下一节(?)中分析的结论来解题了。</p>
+<p>辅助角公式：</p>
+<p><span class="math display">\[
+\begin{align}
+a\sin x+b\cos x&amp;=\sqrt{a^2+b^2}\sin(x+\phi)\nonumber\\
+&amp;=\sqrt{a^2+b^2}\cos(x-\theta)\nonumber\\
+\text{其中}\tan\phi=\frac{b}{a}&amp;\text{, }\tan\theta=\frac{a}{b}\nonumber\\
+\end{align}
+\]</span></p>
+<p>好吧，我承认，这样看起来有点抽象，所以让我们实际感受一下：</p>
+<p><span class="math display">\[
+\begin{align}
+\sin x+\cos x=\sqrt{2}\sin(x+\frac{\pi}{4})\nonumber\\
+\sqrt{3}\sin x+\cos x=2\sin(x+\frac{\pi}{3})\nonumber\\
+\end{align}
+\]</span></p>
+<p>你可以自己试着推导一下，例如上面第二个式子。</p>
+<div class="note note-info">
+            <p>如果我想的话，在这里应该会把推导过程写出来。但是我有点懒，所以下次吧。如果你想看过程，可以移步搜题软件。</p>
+          </div>
 <h3 id="本页面未完成-this-page-is-unfinished">本页面未完成 | This Page is Unfinished</h3>
 
                 
@@ -512,6 +621,8 @@
       
         <a href="/tags/%E6%95%B0%E5%AD%A6/">#数学</a>
       
+        <a href="/tags/%E6%9C%AA%E5%AE%8C%E6%88%90/">#未完成</a>
+      
     </div>
   
 </div>
@@ -541,7 +652,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2022年12月31日</div>
+          <div>2023年1月6日</div>
         </div>
       
       
