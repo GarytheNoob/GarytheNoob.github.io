@@ -201,16 +201,12 @@ $$
 
 在这里我将不使用课本给出的推导公式技巧，而是一股脑全部给出，所以接好！
 
-{% note info %}
-由于$\LaTeX$的渲染问题，无法打出课本中形如$\text S_{(\alpha+\beta)}$这样的公式标记，所以我会用$\text{S+}$等来替代，如果有格式不统一还请谅解，我目前无法解决（欢迎提供解决方案）。
-{% endnote %}
-
 #### 正弦
 
 $$
 \begin{align}
-\sin(\alpha+\beta)&=\sin\alpha\cos\beta+\cos\alpha\sin\beta \tag{S+}\\
-\sin(\alpha-\beta)&=\sin\alpha\cos\beta-\cos\alpha\sin\beta \tag{S-}\\
+\sin(\alpha+\beta)&=\sin\alpha\cos\beta+\cos\alpha\sin\beta \tag{$S_{(\alpha+\beta)}$}\\
+\sin(\alpha-\beta)&=\sin\alpha\cos\beta-\cos\alpha\sin\beta \tag{$S_{(\alpha-\beta)}$}\\
 \end{align}
 $$
 
@@ -218,8 +214,8 @@ $$
 
 $$
 \begin{align}
-\cos(\alpha+\beta)&=\cos\alpha\cos\beta-\sin\alpha\sin\beta \tag{C+}\\
-\cos(\alpha-\beta)&=\cos\alpha\cos\beta+\sin\alpha\sin\beta \tag{C-}\\
+\cos(\alpha+\beta)&=\cos\alpha\cos\beta-\sin\alpha\sin\beta \tag{$C_{(\alpha+\beta)}$}\\
+\cos(\alpha-\beta)&=\cos\alpha\cos\beta+\sin\alpha\sin\beta \tag{$C_{(\alpha-\beta)}$}\\
 \end{align}
 $$
 
@@ -234,8 +230,8 @@ $$
 
 $$
 \begin{align}
-\tan(\alpha+\beta)&=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta} \tag{T+}\\
-\tan(\alpha-\beta)&=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta} \tag{T-}\\
+\tan(\alpha+\beta)&=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta} \tag{$T_{(\alpha+\beta)}$}\\
+\tan(\alpha-\beta)&=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta} \tag{$T_{(\alpha-\beta)}$}\\
 \end{align}
 $$
 
@@ -245,13 +241,13 @@ $$
 
 $$
 \begin{align}
-\sin2\alpha&=2\sin\alpha\cos\alpha \tag{S2a}\\
-\cos2\alpha&=\cos^2\alpha-\sin^2\alpha \tag{C2a}\\
-\tan2\alpha&=\frac{2\tan\alpha}{1-\tan^2\alpha} \tag{T2a}\\
+\sin2\alpha&=2\sin\alpha\cos\alpha \tag{$S_{2\alpha}$}\\
+\cos2\alpha&=\cos^2\alpha-\sin^2\alpha \tag{$C_{2\alpha}$}\\
+\tan2\alpha&=\frac{2\tan\alpha}{1-\tan^2\alpha} \tag{$T_{2\alpha}$}\\
 \end{align}
 $$
 
-对于$\text{(C2a)}$，如果根据$\text{(R1)}$将其变形，可得：
+对于$(C_{2\alpha})$，如果根据$\text{(R1)}$将其变形，可得：
 
 $$
 \begin{align}
@@ -284,7 +280,7 @@ $$
 \end{align}
 $$
 
-可能你已经发现了，上述这两个公式相除就能得到$\text{(T2a)}$公式，所以希望你记得住！
+可能你已经发现了，上述这两个公式相除就能得到$(T_{2\alpha})$公式，所以希望你记得住！
 
 到这里，你应该可以完全记住倍角公式和它们的**简单**推导了。千万别忘记，因为我们即将进入最难（难绷）的一节——
 
@@ -334,7 +330,16 @@ $$
 你可以自己试着推导一下，例如上面第二个式子。
 
 {% note info %}
-如果我想的话，在这里应该会把推导过程写出来。但是我有点懒，所以下次吧。如果你想看过程，可以移步搜题软件。
+推导：
+$$
+\begin{align}
+&\sqrt{3}\sin x+\cos x\nonumber\\
+=&2(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x)\nonumber\\
+\because& \frac{\sqrt{3}}{2} = \sin\frac{\pi}{3}, \frac{1}{2}=\cos\frac{\pi}{3}\nonumber\\
+\therefore& \text{原式}=2(\sin x\sin\frac{\pi}{3} + \cos x\cos\frac{\pi}{3})\nonumber\\
+&\qquad=2\sin(x+\frac{\pi}{3})\nonumber\\
+\end{align}
+$$
 {% endnote %}
 
 ### 本页面未完成 | This Page is Unfinished
