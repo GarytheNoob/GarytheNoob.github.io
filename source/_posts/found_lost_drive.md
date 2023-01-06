@@ -13,8 +13,7 @@ hide: true
 
 - 短信：`+86 18688999302`
 - 邮箱：`garythenoob@outlook.com`
-- Telegram：@GarytheNoob
-  
+
   {% btn http://t.me/garythenoob, 我的Telegram账户, 点击向我发消息 %}
 
 - 哔哩哔哩私信：@彩笔Gary
