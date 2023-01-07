@@ -189,8 +189,8 @@ $$
 观察$(\text I)$式，假设$\alpha$是第一象限角，则$\left(\alpha-\frac{5\pi}{2}\right)$是第四象限角，根据 ***各象限内三角函数值符号*** ，在第四象限内角的正弦值小于0，所以应在$(\text{II})$式的$\cos\alpha$前的符号取负号，即为：
 $$
 \begin{align}
-&-(-cos\alpha)\\
-=&\cos\alpha
+&-(-cos\alpha)\nonumber\\
+=&\cos\alpha\nonumber\\
 \end{align}
 $$
 

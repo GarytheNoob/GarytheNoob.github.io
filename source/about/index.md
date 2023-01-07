@@ -21,7 +21,7 @@ layout: about
 
 你可以通过以下方式联系上我。但是除非特殊原因不建议找我，因为我不在（
 
-- 邮箱：`garythenoob@outlook.com`
+- 邮箱：{% btn mailto:garythenoob@outlook.com, garythenoob@outlook.com, 点击向我发邮件 %}
 - 哔哩哔哩  {% btn https://space.bilibili.com/448794782, @彩笔Gary, 点击进入我的个人空间 %}
 - GitHub  {% btn https://github.com/GarytheNoob, GarytheNoob/, 点击前往GitHub个人主页 %}
 - Telegram  {% btn http://t.me/garythenoob, @GarytheNoob, 点击向我发消息 %}
