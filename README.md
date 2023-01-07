@@ -1,5 +1,7 @@
 # GarytheNoob.github.io
 
+Click [HERE](https://garythenoob.github.io) to visit the page.
+
 ## Introduction
 
 Well, this is the repo for my blog(which is running on GitHub Pages, clearly)!
