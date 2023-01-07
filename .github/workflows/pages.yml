@@ -31,6 +31,8 @@ jobs:
           sudo apt clean -y
       - name: Install hexo-cli
         run: npm install -g hexo-cli
+      - name: Perform Hexo Clean-up
+        run: hexo clean
       - name: Build
         run: hexo generate
       - name: Deploy
