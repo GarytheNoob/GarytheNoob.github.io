@@ -207,8 +207,8 @@ $$
 
 $$
 \begin{align}
-\sin(\alpha+\beta)&=\sin\alpha\cos\beta+\cos\alpha\sin\beta \tag{$S_{(\alpha+\beta)}$}\\
-\sin(\alpha-\beta)&=\sin\alpha\cos\beta-\cos\alpha\sin\beta \tag{$S_{(\alpha-\beta)}$}\\
+\sin(\alpha+\beta)&=\sin\alpha\cos\beta+\cos\alpha\sin\beta \tag{$\text S_{(\alpha+\beta)}$}\\
+\sin(\alpha-\beta)&=\sin\alpha\cos\beta-\cos\alpha\sin\beta \tag{$\text S_{(\alpha-\beta)}$}\\
 \end{align}
 $$
 
@@ -216,8 +216,8 @@ $$
 
 $$
 \begin{align}
-\cos(\alpha+\beta)&=\cos\alpha\cos\beta-\sin\alpha\sin\beta \tag{$C_{(\alpha+\beta)}$}\\
-\cos(\alpha-\beta)&=\cos\alpha\cos\beta+\sin\alpha\sin\beta \tag{$C_{(\alpha-\beta)}$}\\
+\cos(\alpha+\beta)&=\cos\alpha\cos\beta-\sin\alpha\sin\beta \tag{$\text C_{(\alpha+\beta)}$}\\
+\cos(\alpha-\beta)&=\cos\alpha\cos\beta+\sin\alpha\sin\beta \tag{$\text C_{(\alpha-\beta)}$}\\
 \end{align}
 $$
 
@@ -232,8 +232,8 @@ $$
 
 $$
 \begin{align}
-\tan(\alpha+\beta)&=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta} \tag{$T_{(\alpha+\beta)}$}\\
-\tan(\alpha-\beta)&=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta} \tag{$T_{(\alpha-\beta)}$}\\
+\tan(\alpha+\beta)&=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta} \tag{$\text T_{(\alpha+\beta)}$}\\
+\tan(\alpha-\beta)&=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta} \tag{$\text T_{(\alpha-\beta)}$}\\
 \end{align}
 $$
 
@@ -243,9 +243,9 @@ $$
 
 $$
 \begin{align}
-\sin2\alpha&=2\sin\alpha\cos\alpha \tag{$S_{2\alpha}$}\\
-\cos2\alpha&=\cos^2\alpha-\sin^2\alpha \tag{$C_{2\alpha}$}\\
-\tan2\alpha&=\frac{2\tan\alpha}{1-\tan^2\alpha} \tag{$T_{2\alpha}$}\\
+\sin2\alpha&=2\sin\alpha\cos\alpha \tag{$\text S_{2\alpha}$}\\
+\cos2\alpha&=\cos^2\alpha-\sin^2\alpha \tag{$\text C_{2\alpha}$}\\
+\tan2\alpha&=\frac{2\tan\alpha}{1-\tan^2\alpha} \tag{$\text T_{2\alpha}$}\\
 \end{align}
 $$
 
@@ -262,8 +262,8 @@ $$
 
 $$
 \begin{align}
-\sin^2\alpha&=\frac{1-\cos2\alpha}{2}\nonumber\\
-\cos^2\alpha&=\frac{1+\sin2\alpha}{2}\nonumber\\
+\sin^2\alpha&=\frac{1-\cos2\alpha}{2}\tag{$\text S_\text{降次升角}$}\\
+\cos^2\alpha&=\frac{1+\sin2\alpha}{2}\tag{$\text C_\text{降次升角}$}\\
 \end{align}
 $$
 
@@ -305,6 +305,16 @@ $$
 {% endnote %}
 
 注意到，**正减余加**的口诀在这里仍然适用！~~现在知道记什么了吧~~
+
+哦对了，关于**正减余加**的口诀，我单独写了一篇，可以看看：[背会一个口诀竟然能记住正余弦函数这么多知识点！](https://garythenoob.github.io/discus_sine_and_cosine_func/)
+
+我还必须介绍另外几个正切函数的半角公式：
+$$
+\begin{align}
+\tan\frac{\alpha}{2}&=\frac{1-\cos\alpha}{\sin\alpha}\nonumber\\
+&=\frac{\sin\alpha}{1+\cos\alpha}\nonumber\\
+\end{align}
+$$
 
 #### 辅助角公式
 
