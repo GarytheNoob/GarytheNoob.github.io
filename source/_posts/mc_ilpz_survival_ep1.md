@@ -15,6 +15,10 @@ banner_img: https://raw.githubusercontent.com/GarytheNoob/Images/main/scr/mcep/e
 
 <!-- more -->
 
+{% note warning %}
+**【多图警告】** 本页面含有多张图片，由于图床（其实就是GitHub）原因，在中国大陆访问可能加载缓慢，请谅解！
+{% endnote %}
+
 ## 搞点火箭
 
 今天一上线，发现在女巫塔。这是我当时自己一个人~~抄作业~~建的女巫塔。
