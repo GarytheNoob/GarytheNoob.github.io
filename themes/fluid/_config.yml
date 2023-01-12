@@ -799,7 +799,7 @@ valine:
 # See: https://waline.js.org/
 waline:
   serverURL: 'https://gary-page-vercel-bv0uapbi3-garythenoob-qqcom.vercel.app/'
-  placeholder: 说点什么吼同学
+  placeholder: '说点什么吼同学'
   path: window.location.pathname
   meta: ['nick', 'mail', 'link']
   pageSize: 10
