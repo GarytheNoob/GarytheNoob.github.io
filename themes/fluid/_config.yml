@@ -799,7 +799,6 @@ valine:
 # See: https://waline.js.org/
 waline:
   serverURL: 'https://gary-page-vercel-bv0uapbi3-garythenoob-qqcom.vercel.app/'
-  placeholder: "说点什么吼，童鞋"
   path: window.location.pathname
   avatar: retro
   meta: ['nick', 'mail', 'link']
@@ -811,8 +810,7 @@ waline:
   requiredFields: []
   emojiCDN:
   emojiMaps:
-  anonymous: "不具名之人"
-  sofa: "评论区虚位以待……"
+  dark: html[data-user-color-scheme="dark"]
 
 # 畅言 Changyan
 # 基于第三方的服务
