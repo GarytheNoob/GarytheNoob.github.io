@@ -361,8 +361,8 @@ navbar:
       key: '源码&技术',
       icon: 'iconfont icon-code',
       submenu: [
-        { key: 'GitHub仓库页', link: 'https://github.com/GarytheNoob/GarytheNoob.github.io' },
-        { key: '网站状态', link: '/status/' }
+        { key: 'GitHub仓库页', link: 'https://github.com/GarytheNoob/GarytheNoob.github.io', icon: "iconfont icon-github-fill"},
+        { key: '网站状态', link: '/status/', icon: "iconfont icon-clipcheck"}
       ]
     }
 
