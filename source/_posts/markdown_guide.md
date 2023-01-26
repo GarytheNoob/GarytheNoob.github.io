@@ -21,7 +21,7 @@ Markdown是一种「**语言**」，也是一种文件格式。也就是说，�
 
 {% note info %}
 请注意，本文就是用Markdown编写的。
-(% endnote %)
+{% endnote %}
 
 ## 开始前回答几个问题
 
