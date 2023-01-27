@@ -2,6 +2,7 @@
 title: "零基础入门Markdown：一种轻量级标记语言"
 author: GarytheNoob
 date: 2023/01/27 00:00
+update: 2023/01/27 13:30
 mathjax: true
 math: true
 categories:
@@ -20,7 +21,7 @@ Markdown是一种「**语言**」，也是一种文件格式。也就是说，�
 那它究竟是一种什么「语言」呢？使用它有什么优势呢？接下来我会简单介绍。
 
 {% note info %}
-请注意，本文就是用Markdown编写的。
+请注意，本文就是基于Markdown编写的。
 {% endnote %}
 
 ## 开始前回答几个问题
@@ -47,7 +48,7 @@ Markdown和Word等软件的用法最大的不同，在于Markdown是**所见非�
 
 首先，Markdown和Word对于文字处理各有所长。Word主打直观方便，而Markdown则更简单有效率。所以我个人不是很赞同网络上的所谓「放弃Word吧，来用Markdown」的观点——两家各有所长，需要分情况。
 
-Markdown作为一种轻量的标记语言，很适合写博客（比如本文）或者一些简单的说明。在GitHub中，Markdown更是广泛使用。[GitHub的中文版Markdown标准文档](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+Markdown作为一种轻量的标记语言，很适合写博客（比如本文）或者一些简单的说明。在GitHub中，Markdown更是广泛使用。[GitHub的中文版Markdown文档](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 ## 编辑Markdown前准备
 
@@ -57,28 +58,112 @@ Markdown作为一种轻量的标记语言，很适合写博客（比如本文）
 刚刚提到，Markdown处理的是纯文本，所以理论上可以用系统自带的**文本编辑器**来打开，比如Windows系统的**记事本**（Notepad），但是这些编辑器不能满足很多功能，比如渲染、高亮等，所以还是选一款专门的编辑器吧！
 {% endnote %}
 
-我现在正在使用的是微软的[Visual Studio Code](https://code.visualstudio.com/)（VScode），这是一款**全能的**代码编辑器，当然也支持编辑Markdown。但是这款编辑器的配置难度较高（本质上是依赖安装扩展实现不同功能），小白上手可能略显困难。但是相信如果配置得好，这款编辑器一定可以满足编写Markdown的所有需求。
+我现在正在使用的是微软的[Visual Studio Code](https://code.visualstudio.com/)（VS Code），这是一款**全能的**代码编辑器，当然也支持编辑Markdown。但是这款编辑器的配置难度较高（本质上是依赖安装扩展实现不同功能），小白上手可能略显困难。但是相信如果配置得好，这款编辑器一定可以满足编写Markdown的所有需求。
+
+### VS Code安装简要步骤
 
 下面我简要说明一下安装步骤，由于不是本文重点，节奏较快。如果不会可以去B站或百度搜索教程。
 
-首先从[上述官网](https://code.visualstudio.com/)下载VScode，打开后点击左侧的**扩展**按键或按快捷键`Ctrl+Shift+X`打开扩展下载窗口，输入`Chinese`来搜索中文翻译，选择第一个安装即可。安装完后需要重启VSCode。
+1. 首先从[上述官网](https://code.visualstudio.com/)下载VS Code，打开后点击左侧的**扩展**按键或按快捷键`Ctrl+Shift+X`打开扩展下载窗口，输入`Chinese`来搜索中文翻译，选择第一个安装即可。安装完后需要重启VS Code。
 
-理论上原版的VScode已经可以编辑Markdown，但是安装接下来几个扩展之后编辑会变得更顺畅。以下扩展只需要搜索`Markdown`就可以搜索得到，点击下载即可。
+2. 理论上原版的VS Code已经可以编辑Markdown，但是安装接下来几个扩展之后编辑会变得更顺畅。以下扩展只需要搜索`Markdown`就可以搜索得到，点击下载即可。
 
 - Markdown All in One：Markdown编辑工具全家桶
 - Markdown Preview Enhanced：Markdown白底预览
 
-到这一步，你的VScode已经具备了流畅编写Markdown的能力，接下来就是新建文件然后一展身手了！你可以新建一个文本文件，将后缀名改为`.md`，这是Markdown文件的后缀。然后用VScode打开，就可以愉快开始Markdown编写了！在编写界面的右上角，你可以找到一个预览按钮（在安装了Markdown Preview Enhanced扩展之后可以按快捷键`Ctrl+K V`打开，这是一个两段快捷键，先按`Ctrl+K`再单独按`V`）。
+3. 到这一步，你的VS Code已经具备了流畅编写Markdown的能力，接下来就是新建文件然后一展身手了！你可以新建一个文本文件，将后缀名改为`.md`，这是Markdown文件的后缀。然后用VS Code打开，就可以愉快开始Markdown编写了！在编写界面的右上角，你可以找到一个预览按钮（在安装了Markdown Preview Enhanced扩展之后可以按快捷键`Ctrl+K V`打开，这是一个两段快捷键，先按`Ctrl+K`再单独按`V`）。
 
-如果我说的太抽象，可以去B站或百度搜索「Markdown VScode」的关键词寻找教程！
+如果我说的太抽象，可以去B站或百度搜索「Markdown VS Code」的关键词寻找教程！
+
+### VS Code以外的平替
+
+如果不熟悉或者不习惯VS Code的界面，也可以用这些专门为Markdown设计的编辑器：
+
+- [Obsidian](https://obsidian.md/)：一款免费的笔记软件，支持Markdown编辑。
+- [Typora](https://typora.io/)：简洁好用的Markdown阅读器和编辑器，但是收费。
+
+如果目前只是想尝试Markdown编辑或者由于某些原因无法下载软件，可以使用一些在线编辑器。这些编辑器都大同小异，任意选择即可。
+
+- [StackEdit](https://stackedit.io/app#)
+- [Editor.md](https://pandao.github.io/editor.md/index.html)
+
+这些在线编辑器可能默认已经有了简要的Markdown教程。如果你想跟着本文接下来的教程走，建议先全选删除页面中原有的内容。
 
 ## Markdown基本语法
 
-请注意，由于Markdown的作者的反对标准化立场，每家的Markdown渲染和语法支持可能都不同。现在主流的一种标准是GitHub Flavored Markdown，简称**GFM**。其中有一些对标准Markdown的修改和添加。
+{% note warning}
+本文接下来的教程都基于**VS Code**的语法支持，其他编辑器可能不支持本文提到的部分语法或支持本文没有提到的语法，请谅解！
+{% endnote %}
+
+请注意，由于Markdown的作者的反对标准化立场，每家的Markdown渲染和语法支持可能都不同。现在主流的一种标准是[GitHub Flavored Markdown](https://github.github.com/gfm/)，简称**GFM**。其中有一些对标准Markdown的修改和添加。
+
+### 正文
+
+在Markdown中，正文的编辑虽然看起来和Word或其他软件类似，但是仍然有区别。比如，一般的Markdown段落前没有空两格（都是定格写），并且也不是单纯靠换行分段。
+
+在Markdown中，分段有三种方式：
+
+- 在段落末尾插入两个空格再换行：
+  ```markdown
+  这是第一个自然段，末尾有两个空格可能不好显示。  
+  这是第二个自然段。
+  ```
+
+- 在段落末尾插入`<br>`：
+  ```markdown
+  这是第一个自然段。<br>
+  这是第二个自然段，这段可能长一点。<br>
+  这是第三个自然段。<br>如果你喜欢，在这个`<br>`后不需要换行也可以分段。<br>比如这样。
+  ```
+
+- 每个自然段后插入空行，也就是每个自然段都被空行包围：
+  ```markdown
+  这是第一个自然段。
+
+  这是第二个自然段。
+
+  这是第三个自然段。
+
+  以下可能还有很多自然段但是我不想写了。
+  ```
+  我更喜欢这种空行分段的方式，把每一个自然段用空行分隔开，让整体的`.md`文件更易于阅读。
+
+{% note info %}
+在`.md`文件中的空行除了分开自然段以外对渲染结果没有影响。所以如果需要在结果中有空行也需要单独的技巧。
+
+- 其一就是利用刚刚提到的`<br>`。它就相当于在Word中的`Enter`键，可以起到结束当前段落（即使当前段落是空的）的作用：
+
+  ```markdown
+  这是一个自然段，现在我希望下面有一些空白（空行），我可以这么写：
+  <br>
+  也可以这么写来得到更多的空行：
+  <br><br>
+  或者每一个`<br>`分开写：
+  <br>
+  <br>
+  这样也可以有两行空行。
+  ```
+
+  时刻记住，`<br>`就像Word中的`Enter`键一样，需要换行分段找它肯定没问题。
+
+- 其二则是在需要空行的地方插入`&nbsp;`，注意是这五个字符都要（不要漏了最后的分号`;`）：
+  
+  ```markdown
+  相较于`<br>`，`&nbsp;`不能多个写在同一行（多个写在同一行也只会空一行）。比如接下来的空行是正确的。
+  &nbsp;
+  这下就空行成功了。但是接下来也只会空一行。
+  &nbsp;&nbsp;
+  如果要空两行还请分开写。
+  &nbsp;
+  &nbsp;
+  这样才是空两行。
+  ```
+
+{% endnote %}
 
 ### 标题
 
-在标题文本的一行开头输入若干（1~6个）`#`号：
+在标题文本的一行开头输入若干（1~6个）`#`号，在添加一个空格` `：
 
 ```markdown
 # 一级标题
@@ -93,7 +178,8 @@ Markdown作为一种轻量的标记语言，很适合写博客（比如本文）
 比如上面的`Markdown基本语法`是二级标题，其下的`标题`是三级标题。上面一部分的源码如下：
 
 ```markdown
-...
+…省略
+
 ## Markdown基本语法
 
 请注意，由于Markdown的作者的反对标准化立场，每家的Markdown渲染和语法支持可能都不同。现在主流的一种标准是GitHub Flavored Markdown，简称**GFM**。其中有一些对标准Markdown的修改和添加。
@@ -101,8 +187,126 @@ Markdown作为一种轻量的标记语言，很适合写博客（比如本文）
 ### 标题
 
 在标题文本的一行开头输入若干（1~6个）`#`号：
-...
+
+…省略
 ```
 
-本页面未完成。
+### 加粗、斜体与下划线
+
+这两种简单的字体样式需要借助`*`或`_`的帮助。
+
+#### 加粗
+
+将需要加粗的字段用`**`包裹：
+
+```markdown
+这一段中某些字是**加粗**的。
+```
+
+{% note secondary %}
+这一段中某些字是**加粗**的。
+{% endnote %}
+
+加粗可以选择字段后通过快捷键`Ctrl+B`实现。
+
+#### 斜体
+
+和加粗类似，不过是一个星号`*`：
+
+```markdown
+这一段中某些字是*倾斜*的。
+```
+
+{% note secondary %}
+这一段中某些字是*倾斜*的。
+{% endnote %}
+
+加粗可以选择字段后通过快捷键`Ctrl+I`实现。
+
+#### 下划线
+
+下划线稍微不同，需要在字段前加入`<u>`，在后面加入`</u>`
+
+```markdown
+这一段中某些字是<u>划线</u>的。
+```
+
+{% note secondary %}
+这一段中某些字是<u>划线</u>的。
+{% endnote %}
+
+#### 样式组合
+
+这三种样式（粗体、斜体、下划线）可以自由组合，但是个人习惯将下划线的标记`<u></u>放到最外面：
+
+```markdown
+这一段中某些字**很粗**，有些字 ***又粗又斜***，有些字<u>*斜还划线*</u>，有些字则<u>***无比重要***</u>。
+```
+{% note secondary %}
+这一段中某些字**很粗**，有些字 ***又粗又斜***，有些字<u>*斜还划线*</u>，有些字则<u>***无比重要***</u>。
+{% endnote %}
+
+{% note warning %}
+有些时候可能会出现错误，比如上面的`有些字 ***又粗又斜***`，这里需要一个空格将特殊文本和普通文本分开。但是这种情况在不同的编辑器上不一定出现，还请自行判断。
+{% endnote %}
+
+### 分隔线
+
+在文中单独一行添加`---`来设置分隔线：
+
+```markdown
+这是一段，接下来我想要一个分隔线。
+
+---
+
+这是分隔线下面咯。
+```
+
+{% note secondary %}
+这是一段，接下来我想要一个分隔线。
+
+---
+
+这是分隔线下面咯。
+{% endnote %}
+
+分隔线的上面一行一定要是空行。如果不是，则在某些编辑器/渲染器中会将它视为标题。
+
+{% note warning %}
+某些编辑器不支持在文章的第一行增加分隔线，因为这实际上不是分隔线而是**Front Matter**的语法，但由于本文是新手教程，所以不会牵扯相关内容，还请自行搜索。
+{% endnote %}
+
+### 链接
+
+可以直接将网址插入文中，自动生成链接，但这要求网址必须以`http://`或`https://`开头：
+
+https://baidu.com
+
+如果希望在文本出添加超链接，可以将文本用`[]`括起来，然后紧接着在后面添加`()`包裹的网址。
+
+```markdown
+一些搜索引擎包括[百度](https://baidu.com)、[谷歌](https://google.com)等。
+```
+
+{% note secondary %}
+一些搜索引擎包括[百度](https://baidu.com)、[谷歌](https://google.com)等。
+{% endnote %}
+
+Markdown还支持添加鼠标放上超链接显示的文字，需要在网址后面添加空格` `然后添加用`""`包围的提示文本：
+
+```markdown
+一些搜索引擎包括[百度](https://baidu.com "全球最大的中文搜索引擎")、[谷歌](https://google.com "全球最大的搜索引擎")等。
+```
+
+{% note secondary %}
+一些搜索引擎包括[百度](https://baidu.com "全球最大的中文搜索引擎")、[谷歌](https://google.com "全球最大的搜索引擎")等。
+{% endnote %}
+
+电脑端将鼠标放在超链接文字上即可看到悬浮提示。
+
+{% note warning %}
+Markdown中的所有特殊符号都必须是西文半角符号，形如`!?.,{[()]}"''"`这种。而中文全角符号，形如`！？。，【（）】“‘’”`的则无法支持，会被视作正文而非特殊标记。
+{% endnote %}
+
+**本页面未完成**
 
