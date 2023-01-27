@@ -98,8 +98,14 @@ Markdown作为一种轻量的标记语言，很适合写博客（比如本文）
 
 ## Markdown语法
 
-请见[Markdown基本语法](https://garythenoob.github.io/markdown_grammar_book)
+请见另一篇[Markdown基本语法](https://garythenoob.github.io/markdown_grammar_book)
 
 ## 导出
 
 在Typora中，可以方便地将Markdown导出为自己需要的格式，比如PDF或者Word文档，也可以直接生成图片。
+
+在VS Code中，可以通过一个扩展[Markdown PDF](https://marketplace.visualstudio.com/items?itemName=yzane.markdown-pdf)来实现导出操作。虽然名字中有PDF，但是其实它不仅能导出为PDF文件，还可以导出为图片和html文件。
+
+安装了Markdown PDF扩展之后，在需要导出的文件的编辑页面按右键选择Markdown PDF: Export相关选项，即可在`.md`文件所在目录生成导出文件。
+
+请注意，Markdown PDF扩展本质上也是一个渲染器，并且渲染效果和Markdown Preview Enhanced的效果不同，所以可能需要自己设置。
