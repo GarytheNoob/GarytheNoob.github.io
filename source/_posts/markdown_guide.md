@@ -182,13 +182,13 @@ Markdown作为一种轻量的标记语言，很适合写博客（比如本文）
 
 ## Markdown基本语法
 
-请注意，由于Markdown的作者的反对标准化立场，每家的Markdown渲染和语法支持可能都不同。现在主流的一种标准是GitHub Flavored Markdown，简称**GFM**。其中有一些对标准Markdown的修改和添加。
+<!-- 中间的卡片不是标准Markdown，我删了 -->
 
-### 标题
+请注意，由于Markdown的作者的反对标准化立场，每家的Markdown渲染和语法支持可能都不同。现在主流的一种标准是[GitHub Flavored Markdown](https://github.github.com/gfm/)，简称**GFM**。其中有一些对标准Markdown的修改和添加。
 
-在标题文本的一行开头输入若干（1~6个）`#`号：
+### 正文
 
-…省略
+在Markdown中，正文的编辑…
 ```
 
 ### 加粗、斜体与下划线
@@ -303,6 +303,10 @@ Markdown还支持添加鼠标放上超链接显示的文字，需要在网址后
 
 {% note secondary %}
 一些搜索引擎包括[百度](https://baidu.com "全球最大的中文搜索引擎")、[谷歌](https://google.com "全球最大的搜索引擎")等。
+{% endnote %}
+
+{% note info %}
+在卡片中的超链接不会显示蓝色，但是仍然有超链接功能。
 {% endnote %}
 
 电脑端将鼠标放在超链接文字上即可看到悬浮提示。
