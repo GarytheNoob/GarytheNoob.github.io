@@ -91,7 +91,7 @@ Markdown作为一种轻量的标记语言，很适合写博客（比如本文）
 
 ## Markdown基本语法
 
-{% note warning}
+{% note warning %}
 本文接下来的教程都基于**VS Code**的语法支持，其他编辑器可能不支持本文提到的部分语法或支持本文没有提到的语法，请谅解！
 {% endnote %}
 
