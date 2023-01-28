@@ -24,7 +24,7 @@
 <meta property="og:description" content="本文将系统介绍Markdown的语法，从零开始。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-01-27T00:00:00.000Z">
-<meta property="article:modified_time" content="2023-01-27T09:28:16.260Z">
+<meta property="article:modified_time" content="2023-01-28T14:55:26.505Z">
 <meta property="article:author" content="GarytheNoob">
 <meta property="article:tag" content="技术">
 <meta property="article:tag" content="Markdown">
@@ -443,8 +443,9 @@ mjx-container[display="true"] + br {
             
               <div class="markdown-body">
                 
-                <p>本文将系统介绍Markdown的语法，从零开始。</p>
+                <p>本文将系统<strong>介绍</strong>Markdown的语法，从零开始。</p>
 <span id="more"></span>
+<p>本文是教程而非参考书，所以一些内容会讲得更细。</p>
 <div class="note note-warning">
             <p>本文的教程都基于<strong>VS Code</strong>的语法支持，其他编辑器可能不支持本文提到的部分语法或支持本文没有提到的语法，请谅解！</p>
           </div>
@@ -467,7 +468,7 @@ mjx-container[display="true"] + br {
 <p>比如上面的<code>Markdown基本语法</code>是二级标题，其下的<code>正文</code>是三级标题。上面一部分的源码如下：</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><code class="hljs markdown">…省略<br><br><span class="hljs-section">## Markdown基本语法</span><br><br>&lt;!-- 中间的卡片不是标准Markdown，我删了 --&gt;<br><br>请注意，由于Markdown的作者的反对标准化立场，每家的Markdown渲染和语法支持可能都不同。现在主流的一种标准是[<span class="hljs-string">GitHub Flavored Markdown</span>](<span class="hljs-link">https://github.github.com/gfm/</span>)，简称<span class="hljs-strong">**GFM**</span>。其中有一些对标准Markdown的修改和添加。<br><br><span class="hljs-section">### 正文</span><br><br>在Markdown中，正文的编辑…<br></code></pre></td></tr></table></figure>
 <h3 id="加粗斜体与下划线删除线">加粗、斜体与下划线、删除线</h3>
-<p>这两种简单的字体样式需要借助<code>*</code>的帮助。</p>
+<p>这些常见的字体样式都有对应的写法。</p>
 <h4 id="加粗">加粗</h4>
 <p>将需要加粗的字段用<code>**</code>包裹：</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs markdown">这一段中某些字是<span class="hljs-strong">**加粗**</span>的。<br></code></pre></td></tr></table></figure>
@@ -545,7 +546,7 @@ mjx-container[display="true"] + br {
 <p>连用三个反引号将代码块包裹，注意反引号单独一行：</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-code">```</span><br><span class="hljs-code">a + b</span><br><span class="hljs-code">```</span><br></code></pre></td></tr></table></figure>
 <div class="note note-secondary">
-            <figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs css"><span class="hljs-selector-tag">a</span> + <span class="hljs-selector-tag">b</span><br></code></pre></td></tr></table></figure>
+            <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs text">a + b<br></code></pre></td></tr></table></figure>
           </div>
 <p>如果要指定代码的语言让代码有语法高亮，则在开始的反引号后面注明语言。比如<code>c</code> <code>cpp</code> <code>java</code> <code>markdown</code> <code>python</code> <code>html</code> 等等：</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><code class="hljs markdown"><span class="hljs-code">```python</span><br><span class="hljs-code">print("Hello Markdown Code Block!")</span><br><span class="hljs-code">```</span><br></code></pre></td></tr></table></figure>
@@ -628,7 +629,7 @@ mjx-container[display="true"] + br {
       
         <div class="license-meta-item license-meta-date">
           <div>更新于</div>
-          <div>2023年1月27日</div>
+          <div>2023年1月28日</div>
         </div>
       
       
@@ -670,6 +671,12 @@ mjx-container[display="true"] + br {
                 <div class="post-prevnext my-3">
                   <article class="post-prev col-6">
                     
+                    
+                      <a href="/download_music_discuss/" title="2023年如何优雅地白嫖歌曲和歌词？">
+                        <i class="iconfont icon-arrowleft"></i>
+                        <span class="hidden-mobile">2023年如何优雅地白嫖歌曲和歌词？</span>
+                        <span class="visible-mobile">上一篇</span>
+                      </a>
                     
                   </article>
                   <article class="post-next col-6">
