@@ -83,7 +83,7 @@ tags:
 
 如果你有自己的梯子，或者自己有方式使用[Telegram](https://baike.baidu.com/item/Telegram/6974663?fr=aladdin)的话，我推荐你使用这个方法。如果没有梯子也想尝试，那么可以试着使用诸如[NekoX](https://github.com/NekoX-Dev/NekoX)之类的第三方自带免费代理的Telegram客户端。具体方法请自行搜索。
 
-在Telegram与[@VK Music Bot](https://t.me/vkmusic_bot)对话。先发送`/start`（一些客户端会自动帮你发）开始会话。
+在Telegram与[@VK_Music_ Bot](https://t.me/vkmusic_bot)对话。先发送`/start`（一些客户端会自动帮你发）开始会话。
 
 VKM机器人支持的指令：
 
