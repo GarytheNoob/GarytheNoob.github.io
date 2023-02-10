@@ -41,3 +41,31 @@ int main(){
 
 > 回应我吧，爱莉希雅！
 > <p style="text-align:right;"><font size=2><i> ——雷电芽衣</i></font></p>
+
+接下来测试数学渲染
+
+$$
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$
+
+上面是二次方程求根公式
+
+$$
+\int_a^b f(x)\mathrm{d}x = F(b) - F(a)
+$$
+
+上面是牛顿-莱布尼茨公式
+
+$$
+\ce{MnO2 + 4HCl }\xlongequal{\triangle} \ce{ MnCl2 + Cl2 ^ + 2H2O}
+$$
+
+$$
+\ce{MnO2 + 2Cl- + 4H+ }\xlongequal{\triangle} \ce{ Mn^2+ + Cl2 ^ + 2H2O}
+$$
+
+$$
+\ce{_1^1H  _1^2H  _1^3H}
+$$
+
+上面是一些化学符号
