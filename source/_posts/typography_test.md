@@ -10,7 +10,6 @@ math: true
 本文用于测试不常见的排版。
 
 
-<p style="text-align:right;">右端对齐</p>
 
 {% note success %}
 
@@ -40,7 +39,7 @@ int main(){
 
 
 > 回应我吧，爱莉希雅！
-> <p style="text-align:right;"><font size=2><i> ——雷电芽衣</i></font></p>
+
 
 接下来测试数学渲染
 
