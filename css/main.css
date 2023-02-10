@@ -782,7 +782,7 @@ html {
 html,
 body {
   height: 100%;
-  font-family: var(--font-family-sans-serif);
+  font-family: Noto Sans Simplified Chinese;
   overflow-wrap: break-word;
 }
 body {
@@ -862,7 +862,7 @@ i.iconfont {
   --scrollbar-hover-color: #a6a6a6;
   --button-bg-color: transparent;
   --button-hover-bg-color: #f2f3f5;
-  --highlight-bg-color: #f6f8fa;
+  --highlight-bg-color: #fafafa;
   --inlinecode-bg-color: rgba(175,184,193,0.2);
 }
 @media (prefers-color-scheme: dark) {
@@ -887,7 +887,7 @@ i.iconfont {
     --scrollbar-hover-color: #9da8b3;
     --button-bg-color: transparent;
     --button-hover-bg-color: #46647e;
-    --highlight-bg-color: #303030;
+    --highlight-bg-color: #282c34;
     --inlinecode-bg-color: rgba(99,110,123,0.4);
   }
   :root:not([data-user-color-scheme]) img {
@@ -938,7 +938,7 @@ i.iconfont {
   --scrollbar-hover-color: #9da8b3;
   --button-bg-color: transparent;
   --button-hover-bg-color: #46647e;
-  --highlight-bg-color: #303030;
+  --highlight-bg-color: #282c34;
   --inlinecode-bg-color: rgba(99,110,123,0.4);
 }
 [data-user-color-scheme="dark"] img {
@@ -1362,7 +1362,7 @@ figure.highlight td.code > pre {
 .markdown-body {
   font-size: 1rem;
   line-height: 1.6;
-  font-family: var(--font-family-sans-serif);
+  font-family: Noto Sans Simplified Chinese;
   margin-bottom: 2rem;
   color: var(--post-text-color);
 }
