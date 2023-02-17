@@ -169,4 +169,4 @@ winget install Sogou.SogouInput
 
 ### Minecraft启动器
 
-我用的是[PCL2内测版](https://afdian.net/a/LTCat)（付费），作者龙猫大大也
+我用的是[PCL2内测版](https://afdian.net/a/LTCat)（付费），作者龙猫大大也发布了免费的公测版。具体也可以去他的爱发电官网看一看，仍然是点上面的链接。
