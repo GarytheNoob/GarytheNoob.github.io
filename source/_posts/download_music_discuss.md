@@ -48,28 +48,28 @@ tags:
 如果有的歌曲只在网易云上有，那也可以通过这种方式下载歌词。这种方法不需要安装其他的软件或者调用api，是我现在常用的一种简单方法。
 
 1. 首先在浏览器中打开歌曲的**网易云链接**，可以通过在客户端的歌曲列表右键——复制链接，然后粘贴到浏览器中：
-    ![复制网址](https://raw.githubusercontent.com/GarytheNoob/Images/main/scr/Snipaste_2023-01-28_21-43-40.png)
-    ![输入网址](https://raw.githubusercontent.com/GarytheNoob/Images/main/scr/Snipaste_2023-01-28_21-49-10.png)
+    ![复制网址](/img/content/download_music_discuss/Snipaste_2023-01-28_21-43-40.png)
+    ![输入网址](/img/content/download_music_discuss/Snipaste_2023-01-28_21-49-10.png)
 
 2. 在浏览器按`F12`打开开发者工具，选择上方的「网络」（Network）选项卡，在搜索栏中输入`lyric`：
-    ![开发者工具](https://raw.githubusercontent.com/GarytheNoob/Images/main/scr/Snipaste_2023-01-28_21-56-59.png)
+    ![开发者工具](/img/content/download_music_discuss/Snipaste_2023-01-28_21-56-59.png)
 
 3. 刷新网页，就能看到下方被筛选出来的几个项目。选择下面有`lyric?csrf_token=...`字样的项目。选择右侧的「预览」选项卡，再展开其中的`lrc:`项目，在显示的歌词（`lyric:`一行）上右键选择「复制值」。
-   ![开发者工具](https://raw.githubusercontent.com/GarytheNoob/Images/main/scr/Snipaste_2023-01-28_22-00-13.png)
+   ![开发者工具](/img/content/download_music_discuss/Snipaste_2023-01-28_22-00-13.png)
 
 {% note info %}
 有时候搜索出来的有`lyric?csrf_token=...`字样的项目可能有多个，则需要自己手动确认复制的是自己需要的歌词。
 {% endnote %}
 
 4. 在歌曲文件相同目录下右键新建一个文本文件，将复制的内容粘贴进去（「复制值」选项会自动带换行复制，所以无须做任何调整）：
-    ![新建文本文件](https://raw.githubusercontent.com/GarytheNoob/Images/main/scr/Snipaste_2023-01-28_22-01-53.png)
-    ![复制后的文本文件](https://raw.githubusercontent.com/GarytheNoob/Images/main/scr/Snipaste_2023-01-28_22-02-24.png)
+    ![新建文本文件](/img/content/download_music_discuss/Snipaste_2023-01-28_22-01-53.png)
+    ![复制后的文本文件](/img/content/download_music_discuss/Snipaste_2023-01-28_22-02-24.png)
 
 5. 保存，退出文件。然后将文本文件重命名为歌曲文件的名字并修改其后缀为`.lrc`：
-    ![修改文件名和后缀](https://raw.githubusercontent.com/GarytheNoob/Images/main/scr/GIF%202023-1-28%2022-03-22.gif)
+    ![修改文件名和后缀](/img/content/download_music_discuss/GIF%202023-1-28%2022-03-22.gif)
 
 6. 如果以上步骤正确完成，用PotPlayer打开歌曲文件，就可以显示歌词了：
-    ![显示歌词的PotPlayer](https://raw.githubusercontent.com/GarytheNoob/Images/main/scr/Snipaste_2023-01-28_22-04-28.png)
+    ![显示歌词的PotPlayer](/img/content/download_music_discuss/Snipaste_2023-01-28_22-04-28.png)
 
 ## 白嫖收费歌曲
 
