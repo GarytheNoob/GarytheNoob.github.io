@@ -9,7 +9,7 @@ categories:
 tags:
 - Minecraft
 - 生存更新
-banner_img: https://raw.githubusercontent.com/GarytheNoob/Images/main/scr/ilpz_server_scr.png
+banner_img: /img/content/mc_ilpz_survival_ep0/ilpz_server_scr.png
 ---
 
 在教室里看着同学们抢着用希沃玩MC，突发恶疾，回忆起了疫情刚开始时玩的一个小生存服——**ilpz**。整个服务器的玩法偏向生电（个人感觉，因为我当时都在搞生电的机器），但是也有很多大佬造的建筑。我不是这个服的第一批成员，服务器也没有什么大型的全服工程。后来这个服由于一些原因关服了，腐竹公布了关服时的存档。
