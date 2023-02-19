@@ -4,6 +4,19 @@
   
   
   <entry>
+    <title>公告</title>
+    <link href="/99notice/"/>
+    <url>/99notice/</url>
+    
+    <content type="html"><![CDATA[<p>欢迎来到我的博客页面！这个置顶的帖子是一个公告页，我推荐你来看看！</p><span id="more"></span><h2 id="关于本博客">关于本博客</h2><p>欢迎来到我的博客！这个博客是基于Hexo和Fluid主题搭建在GitHub Pages上的。你可以随便看看！</p><h2 id="新内容预告">新内容预告</h2><p>正在考虑一个新系列，主要内容是总结&amp;梳理高中数学和物理中相通的知识点。</p><p>敬请期待！</p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>介绍一下自己的环境</title>
     <link href="/08brief_intro_of%20_my_env/"/>
     <url>/08brief_intro_of%20_my_env/</url>
