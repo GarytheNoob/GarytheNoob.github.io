@@ -145,8 +145,8 @@ color:
 
   # 顶部菜单背景色
   # Color of navigation bar background
-  navbar_bg_color: "#2f4154"
-  navbar_bg_color_dark: "#1f3144"
+  navbar_bg_color: "#19273a"
+  navbar_bg_color_dark: "#19273a"
 
   # 顶部菜单字体色
   # Color of navigation bar text
@@ -224,7 +224,7 @@ color:
 # 主题字体配置
 # Font
 font:
-  font_size: 16px
+  font_size: 18px
   font_family: "Noto Sans Simplified Chinese"
   letter_spacing: 0.02em
   code_font_size: 85%
