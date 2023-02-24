@@ -15,11 +15,11 @@ tags:
 
 ## 设备简介
 
-我的PC是戴尔的经典G15 9920，（改装）了SN770的2TB SSD。目前是笔记本竖向放置然后接HDMI扩展屏（HKC IG27Q 2K 144Hz）使用。
+我的PC是戴尔的经典G15 9920，（改装了SN770的2TB SSD）。目前是笔记本竖向放置然后接HDMI扩展屏（HKC IG27Q 2K 144Hz）使用。
 
 |部件|型号/参数|
 |:---:|:---:|
-|CPU|12th Gen Intel(R) Core(TM) i7-12700H   2.30 GHz||
+|CPU|12th Gen Intel(R) Core(TM) i7-12700H   2.30 GHz|
 |RAM|16.0 GB|
 |GPU|NVIDIA GeForce RTX 3060 Laptop GPU|
 |SSD|NVMe WD_BLACK SN770 2TB（改装）|
