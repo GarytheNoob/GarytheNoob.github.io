@@ -433,7 +433,7 @@ sup > a::before,
   .navbar .dropdown-collapse,
   .top-nav-collapse,
   .navbar-col-show {
-    background: rgba(47,65,84,0.7);
+    background: rgba(25,39,58,0.7);
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
   }
@@ -442,7 +442,7 @@ sup > a::before,
   .navbar .dropdown-collapse,
   .top-nav-collapse,
   .navbar-col-show {
-    background: #2f4154;
+    background: #19273a;
   }
 }
 @media (max-width: 767px) {
@@ -776,7 +776,7 @@ sup > a::before,
   padding: 3rem 0;
 }
 html {
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 0.02em;
 }
 html,
@@ -855,7 +855,7 @@ i.iconfont {
   --link-hover-color: #30a9de;
   --link-hover-bg-color: #f8f9fa;
   --line-color: #eaecef;
-  --navbar-bg-color: #2f4154;
+  --navbar-bg-color: #19273a;
   --navbar-text-color: #fff;
   --subtitle-color: #fff;
   --scrollbar-color: #c4c6c9;
@@ -880,7 +880,7 @@ i.iconfont {
     --link-hover-color: #30a9de;
     --link-hover-bg-color: #364151;
     --line-color: #435266;
-    --navbar-bg-color: #1f3144;
+    --navbar-bg-color: #19273a;
     --navbar-text-color: #d0d0d0;
     --subtitle-color: #d0d0d0;
     --scrollbar-color: #687582;
@@ -899,7 +899,7 @@ i.iconfont {
     :root:not([data-user-color-scheme]) .navbar .dropdown-collapse,
     :root:not([data-user-color-scheme]) .top-nav-collapse,
     :root:not([data-user-color-scheme]) .navbar-col-show {
-      background: rgba(31,49,68,0.7);
+      background: rgba(25,39,58,0.7);
       -webkit-backdrop-filter: blur(3px);
       backdrop-filter: blur(3px);
     }
@@ -908,7 +908,7 @@ i.iconfont {
     :root:not([data-user-color-scheme]) .navbar .dropdown-collapse,
     :root:not([data-user-color-scheme]) .top-nav-collapse,
     :root:not([data-user-color-scheme]) .navbar-col-show {
-      background: #1f3144;
+      background: #19273a;
     }
   }
   :root:not([data-user-color-scheme]) .license-box {
@@ -931,7 +931,7 @@ i.iconfont {
   --link-hover-color: #30a9de;
   --link-hover-bg-color: #364151;
   --line-color: #435266;
-  --navbar-bg-color: #1f3144;
+  --navbar-bg-color: #19273a;
   --navbar-text-color: #d0d0d0;
   --subtitle-color: #d0d0d0;
   --scrollbar-color: #687582;
@@ -950,7 +950,7 @@ i.iconfont {
   [data-user-color-scheme="dark"] .navbar .dropdown-collapse,
   [data-user-color-scheme="dark"] .top-nav-collapse,
   [data-user-color-scheme="dark"] .navbar-col-show {
-    background: rgba(31,49,68,0.7);
+    background: rgba(25,39,58,0.7);
     -webkit-backdrop-filter: blur(3px);
     backdrop-filter: blur(3px);
   }
@@ -959,7 +959,7 @@ i.iconfont {
   [data-user-color-scheme="dark"] .navbar .dropdown-collapse,
   [data-user-color-scheme="dark"] .top-nav-collapse,
   [data-user-color-scheme="dark"] .navbar-col-show {
-    background: #1f3144;
+    background: #19273a;
   }
 }
 [data-user-color-scheme="dark"] .license-box {
