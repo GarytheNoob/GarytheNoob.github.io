@@ -333,8 +333,8 @@ $$
 
 $$
 \begin{align}
-\sin x+\cos x=\sqrt{2}\sin(x+\frac{\pi}{4})\nonumber\\
-\sqrt{3}\sin x+\cos x=2\sin(x+\frac{\pi}{3})\nonumber\\
+\sin x+\cos x=\sqrt{2}\sin\left(x+\frac{\pi}{4}\right)\nonumber\\
+\sqrt{3}\sin x+\cos x=2\sin\left(x+\frac{\pi}{3}\right)\nonumber\\
 \end{align}
 $$
 
@@ -345,10 +345,10 @@ $$
 $$
 \begin{align}
 &\sqrt{3}\sin x+\cos x\nonumber\\
-=&2(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x)\nonumber\\
+=&2\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)\nonumber\\
 \because& \frac{\sqrt{3}}{2} = \sin\frac{\pi}{3}, \frac{1}{2}=\cos\frac{\pi}{3}\nonumber\\
-\therefore& \text{原式}=2(\sin x\sin\frac{\pi}{3} + \cos x\cos\frac{\pi}{3})\nonumber\\
-&\qquad=2\sin(x+\frac{\pi}{3})\nonumber\\
+\therefore& \text{原式}=2\left(\sin x\sin\frac{\pi}{3} + \cos x\cos\frac{\pi}{3}\right)\nonumber\\
+&\qquad=2\sin\left(x+\frac{\pi}{3}\right)\nonumber\\
 \end{align}
 $$
 {% endnote %}
