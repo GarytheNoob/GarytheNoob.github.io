@@ -50,7 +50,7 @@ $$
 上面是二次方程求根公式
 
 $$
-\int_a^b f(x)\mathrm{d}x = F(b) - F(a)
+\int_a^b f(x)\,\mathrm{d}x = F(b) - F(a)
 $$
 
 上面是牛顿-莱布尼茨公式
