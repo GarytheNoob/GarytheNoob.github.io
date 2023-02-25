@@ -22,7 +22,7 @@ Markdown是一种「**语言**」，也是一种文件格式。也就是说，�
 那它究竟是一种什么「语言」呢？使用它有什么优势呢？接下来我会简单介绍。
 
 {% note info %}
-请注意，本文就是基于Markdown编写的，但是添加了一些不属于原版Markdown的语法（比如现在你看到的这个蓝色的卡片）。如果你想访问本文的原文，[可以点我](https://github.com/GarytheNoob/GarytheNoob.github.io/blob/master/source/_posts/markdown_guide.md?plain=1)。
+请注意，本文就是基于Markdown编写的，但是添加了一些不属于原版Markdown的语法（比如现在你看到的这个蓝色的卡片）。如果你想访问本文的源文件，[可以点我](https://github.com/GarytheNoob/GarytheNoob.github.io/blob/master/source/_posts/05markdown_guide.md?plain=1)。
 {% endnote %}
 
 ## 开始前回答几个问题
@@ -98,7 +98,7 @@ Markdown作为一种轻量的标记语言，很适合写博客（比如本文）
 
 ## Markdown语法
 
-请见另一篇[Markdown基本语法](https://garythenoob.github.io/markdown_grammar_book)
+请见另一篇[Markdown基本语法](https://garythenoob.github.io/06markdown_grammar_book)
 
 ## 导出
 
