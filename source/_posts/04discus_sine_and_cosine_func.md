@@ -11,7 +11,7 @@ tags:
 - 未完成
 ---
 
-在阅读本篇之前，建议先浏览一下之前写过的「[三角函数宝典](https://garythenoob.github.io/trigonometric_func_algs/)」。注意，本文中所有的公式编号都以那一篇中的编号为准！
+在阅读本篇之前，建议先浏览一下之前写过的「[三角函数宝典](https://garythenoob.github.io/01trigonometric_func_algs/)」。注意，本文中所有的公式编号都以那一篇中的编号为准！
 
 对于之前提出的“正减余加”的公式，经过我的思考，可以将其扩大，这样可以记住更多知识点！
 

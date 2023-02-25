@@ -305,7 +305,7 @@ $$
 
 注意到，**正减余加**的口诀在这里仍然适用！~~现在知道记什么了吧~~
 
-哦对了，关于**正减余加**的口诀，我单独写了一篇，可以看看：[背会一个口诀竟然能记住正余弦函数这么多知识点！](https://garythenoob.github.io/discus_sine_and_cosine_func/)
+哦对了，关于**正减余加**的口诀，我单独写了一篇，可以看看：[背会一个口诀竟然能记住正余弦函数这么多知识点！](https://garythenoob.github.io/04discus_sine_and_cosine_func/)
 
 我还必须介绍另外几个正切函数的半角公式：
 $$
