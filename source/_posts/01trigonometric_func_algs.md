@@ -340,7 +340,7 @@ $$
 
 你可以自己试着推导一下，例如上面第二个式子。
 
-{% note info %}
+{% spoiler "推导过程" %}
 推导：
 $$
 \begin{align}
@@ -351,7 +351,7 @@ $$
 &\qquad=2\sin\left(x+\frac{\pi}{3}\right)\nonumber\\
 \end{align}
 $$
-{% endnote %}
+{% endspoiler %}
 
 ## 写在后面
 

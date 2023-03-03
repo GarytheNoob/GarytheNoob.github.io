@@ -1,7 +1,0 @@
-.spoiler.collapsed .spoiler-title:before {
-    content: "▶";
-}
-
-.spoiler.expanded .spoiler-title:before {
-    content: "▼";
-}
