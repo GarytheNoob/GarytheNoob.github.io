@@ -3,7 +3,7 @@ var OriginTitle = document.title;
 var titleTime;
 document.addEventListener('visibilitychange', function () {
 	if (document.hidden) {
-		document.title = '==Page Crashed==';
+		document.title = 'GarytheNoob\'s Blog';
 		clearTimeout(titleTime);
 	} else {
 		document.title = 'Recovered! ' + OriginTitle;
@@ -12,3 +12,4 @@ document.addEventListener('visibilitychange', function () {
 		}, 2000);
 	}
 });
+<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
