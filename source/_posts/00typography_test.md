@@ -97,6 +97,16 @@ applet.setPreviewImage('data:image/gif;base64,R0lGODlhAQABAAAAADs=','https://www
 
 ## 隐藏
 
+<style>
+    .spoiler.collapsed .spoiler-title:before {
+        content: "▶";
+    }
+
+    .spoiler.expanded .spoiler-title:before {
+      content: "▼";
+    }
+</style>
+
 {% spoiler "隐藏内容的标题" %}
 
 test ***aaa***
