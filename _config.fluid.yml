@@ -1,5 +1,6 @@
 custom_css:
   - /css/mathjax-size.css
+  - /GZcustom/custom.css
 
 
 custom_js:

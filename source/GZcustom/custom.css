@@ -1,5 +1,7 @@
-/* 提高目录的z轴坐标，否则会被动态线挡住 */
-#toc
-{
-	z-index: 10;
+.spoiler.collapsed .spoiler-title:before {
+    content: "▶";
+}
+
+.spoiler.expanded .spoiler-title:before {
+    content: "▼";
 }
