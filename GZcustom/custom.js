@@ -6,7 +6,7 @@ document.addEventListener('visibilitychange', function () {
 		document.title = 'GarytheNoob\'s Blog';
 		clearTimeout(titleTime);
 	} else {
-		document.title = 'Recovered! ' + OriginTitle;
+		document.title = 'Welcome Back! ' + OriginTitle;
 		titleTime = setTimeout(function () {
 			document.title = OriginTitle;
 		}, 2000);
