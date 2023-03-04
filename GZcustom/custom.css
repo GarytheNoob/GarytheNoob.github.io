@@ -1,1 +1,4 @@
-<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
+.markdown-body code, .markdown-body pre {
+    font-family: "JetBrains Mono",SFMono-Regular,Consolas,Liberation Mono,Menlo,monospace;
+    font-size: 12px;
+}<link rel="stylesheet" href="/css/spoiler.css" type="text/css"><script src="/js/spoiler.js" type="text/javascript" async></script>
