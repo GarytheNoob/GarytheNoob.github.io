@@ -1055,11 +1055,11 @@ static_prefix:
   internal_css: /css
   internal_img: /img
 
-  anchor: https://lib.baomitu.com/anchor-js/4.3.1/
+  anchor: https://cdn.staticfile.org/anchor-js/5.0.0/
 
   github_markdown: https://lib.baomitu.com/github-markdown-css/4.0.0/
 
-  jquery: https://lib.baomitu.com/jquery/3.6.0/
+  jquery: https://cdn.staticfile.org/jquery/3.4.1/ #/lib/jquery
 
   bootstrap: https://lib.baomitu.com/twitter-bootstrap/4.6.1/
 
@@ -1069,11 +1069,11 @@ static_prefix:
 
   typed: https://lib.baomitu.com/typed.js/2.0.12/
 
-  fancybox: https://lib.baomitu.com/fancybox/3.5.7/
+  fancybox: https://cdn.staticfile.org/fancybox/3.5.7/
 
   nprogress: https://lib.baomitu.com/nprogress/0.2.0/
 
-  mathjax: https://lib.baomitu.com/mathjax/3.2.2/
+  mathjax: https://cdn.staticfile.org/mathjax/3.2.2/
 
   katex: https://lib.baomitu.com/KaTeX/0.16.2/
 
@@ -1085,7 +1085,7 @@ static_prefix:
 
   valine: https://lib.baomitu.com/valine/1.5.1/
 
-  waline: https://lib.baomitu.com/waline/2.14.1/
+  waline: https://cdn.staticfile.org/waline/2.14.7/
 
   gitalk: https://lib.baomitu.com/gitalk/1.8.0/
 
