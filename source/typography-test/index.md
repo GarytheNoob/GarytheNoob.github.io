@@ -51,8 +51,15 @@ int main(){
 {% label primary @紫色可爱！ %}
 {% label danger @红色喜庆（不是） %}
 
+<br>
+
 {% cb false %}我的天
+
+<br>
+
 {% cb true %}你的天
+
+<br>
 
 {% btn https://garythenoob.github.io, 神奇的按钮, 回城！ %}
 
@@ -119,5 +126,30 @@ applet.setPreviewImage('data:image/gif;base64,R0lGODlhAQABAAAAADs=','https://www
 {% spoiler "隐藏内容的标题" %}
 
 test ***aaa***
+
+可以写Markdown呀！
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int a, b;
+    cin >> a >> b;
+    string aStr;
+    cin >> aStr;
+    cout << a + b << aStr[a + b] << endl;
+    return 0;
+}
+```
+$$
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$
+
+{% note success %}
+
+绿色一般代表正常。
+
+{% endnote %}
+
 
 {% endspoiler %}
