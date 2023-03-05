@@ -363,7 +363,7 @@ navbar:
       submenu: [
         { key: 'GitHub仓库页', link: 'https://github.com/GarytheNoob/GarytheNoob.github.io', icon: "iconfont icon-github-fill"},
         { key: '网站状态', link: '/status/', icon: "iconfont icon-clipcheck"},
-        { key: '排版测试页', link: 'https://garythenoob.github.io/typography-test', icon: "iconfont icon-exp-fill"}
+        { key: '排版测试页', link: 'https://garythenoob.github.io/00typography_test', icon: "iconfont icon-exp-fill"}
       ]
     }
 

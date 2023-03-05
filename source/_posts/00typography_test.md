@@ -7,15 +7,23 @@ mathjax: true
 math: true
 ---
 
+用于测试不常见的排版。毕竟，确认排版正常工作是很重要的事情。
 本文用于测试不常见的排版。
+用于测试不常见的排版。毕竟，确认排版正常工作是很重要的事情。
 
+## Markdown
+## Markdown
 
+The *quick* ***brown*** fox <u>jumps</u> over the **LAZY** dog.
 
 {% note success %}
+The *quick* ***brown*** fox <u>jumps</u> over the **LAZY** dog.
 
+> Quoted LOL
 绿色一般代表正常
 
 {% endnote %}
+> Quoted LOL
 
 ```python
 for i in range(10):
@@ -37,11 +45,69 @@ int main(){
 }
 ```
 
+## Tags
 
+{% note success %}
+
+绿色一般代表正常。
+
+{% endnote %}
+
+{% note info %}
+
+看起来谁要有提示了。
+
+{% endnote %}
+
+{% label primary @紫色可爱！ %}
+{% label danger @红色喜庆（不是） %}
+
+<br>
+
+{% cb false %}我的天
+
+<br>
+
+{% cb true %}你的天
+## Tags
+
+{% note success %}
+
+绿色一般代表正常。
+
+{% endnote %}
+
+{% note info %}
+
+看起来谁要有提示了。
+
+{% endnote %}
+
+{% label primary @紫色可爱！ %}
+{% label danger @红色喜庆（不是） %}
+
+<br>
+
+{% cb false %}我的天
+
+<br>
+
+{% cb true %}你的天
+
+<br>
 > 回应我吧，爱莉希雅！
+<br>
 
+{% btn https://garythenoob.github.io, 神奇的按钮, 回城！ %}
+{% btn https://garythenoob.github.io, 神奇的按钮, 回城！ %}
 
+## 数学渲染
+
+$\LaTeX$渲染！
 接下来测试数学渲染
+## 数学渲染
+
+$\LaTeX$渲染！
 
 $$
 x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
@@ -97,8 +163,62 @@ applet.setPreviewImage('data:image/gif;base64,R0lGODlhAQABAAAAADs=','https://www
 
 ## 隐藏
 
+基于 `hexo-sliding-spoiler`。
+
+基于 `hexo-sliding-spoiler`。
+
 {% spoiler "隐藏内容的标题" %}
 
 test ***aaa***
+
+可以写Markdown呀！
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int a, b;
+    cin >> a >> b;
+    string aStr;
+    cin >> aStr;
+    cout << a + b << aStr[a + b] << endl;
+    return 0;
+}
+```
+$$
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$
+
+{% note success %}
+
+绿色一般代表正常。
+
+{% endnote %}
+
+
+可以写Markdown呀！
+
+```cpp
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    int a, b;
+    cin >> a >> b;
+    string aStr;
+    cin >> aStr;
+    cout << a + b << aStr[a + b] << endl;
+    return 0;
+}
+```
+$$
+x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+$$
+
+{% note success %}
+
+绿色一般代表正常。
+
+{% endnote %}
+
 
 {% endspoiler %}
