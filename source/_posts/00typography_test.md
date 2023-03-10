@@ -8,11 +8,9 @@ math: true
 ---
 
 用于测试不常见的排版。毕竟，确认排版正常工作是很重要的事情。
-本文用于测试不常见的排版。
-用于测试不常见的排版。毕竟，确认排版正常工作是很重要的事情。
 
 ## Markdown
-## Markdown
+
 
 The *quick* ***brown*** fox <u>jumps</u> over the **LAZY** dog.
 
@@ -69,41 +67,9 @@ int main(){
 <br>
 
 {% cb true %}你的天
-## Tags
-
-{% note success %}
-
-绿色一般代表正常。
-
-{% endnote %}
-
-{% note info %}
-
-看起来谁要有提示了。
-
-{% endnote %}
-
-{% label primary @紫色可爱！ %}
-{% label danger @红色喜庆（不是） %}
-
-<br>
-
-{% cb false %}我的天
-
-<br>
-
-{% cb true %}你的天
-
-<br>
-> 回应我吧，爱莉希雅！
-<br>
-
-{% btn https://garythenoob.github.io, 神奇的按钮, 回城！ %}
-{% btn https://garythenoob.github.io, 神奇的按钮, 回城！ %}
 
 ## 数学渲染
 
-$\LaTeX$渲染！
 接下来测试数学渲染
 ## 数学渲染
 
