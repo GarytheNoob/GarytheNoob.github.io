@@ -24,7 +24,7 @@
 <meta property="og:description" content="本文将系统介绍Markdown的语法，从零开始。">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-01-27T12:00:00.000Z">
-<meta property="article:modified_time" content="2023-03-11T12:41:45.631Z">
+<meta property="article:modified_time" content="2023-03-11T12:44:27.801Z">
 <meta property="article:author" content="GarytheNoob">
 <meta property="article:tag" content="技术">
 <meta property="article:tag" content="Markdown">
@@ -547,12 +547,17 @@ mjx-container[display="true"] + br {
 <h2 id="分隔线">分隔线</h2>
 <p>在文中单独一行添加<code>---</code>来设置分隔线：</p>
 <figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><code class="hljs markdown">这是一段，接下来我想要一个分隔线。<br><br>---<br><br>这是分隔线下面咯。<br></code></pre></td></tr></table></figure>
-<p>由于渲染问题，分隔线无法在灰色卡片里渲染，我直接将其插入到文章中：</p>
-<p><br></p>
-<p>这是一段，接下来我想要一个分隔线。</p>
+<div class="spoiler collapsed">
+    <div class="spoiler-title">
+        渲染效果
+    </div>
+    <div class="spoiler-content">
+        <p>这是一段，接下来我想要一个分隔线。</p>
 <hr>
 <p>这是分隔线下面咯。</p>
-<p><br></p>
+
+    </div>
+</div>
 <p>分隔线的上面一行一定要是空行。如果不是，则在某些编辑器/渲染器中会将它视为标题。</p>
 <div class="note note-warning">
             <p>某些编辑器不支持在文章的第一行增加分隔线，因为这实际上不是分隔线而是<strong>Front Matter</strong>的语法，但由于本文是新手教程，所以不会牵扯相关内容，还请自行搜索。</p>
