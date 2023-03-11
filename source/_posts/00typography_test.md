@@ -130,8 +130,6 @@ applet.setPreviewImage('data:image/gif;base64,R0lGODlhAQABAAAAADs=','https://www
 
 基于 `hexo-sliding-spoiler`。
 
-基于 `hexo-sliding-spoiler`。
-
 {% spoiler "隐藏内容的标题" %}
 
 test ***aaa***
@@ -153,37 +151,5 @@ int main(){
 $$
 x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
 $$
-
-{% note success %}
-
-绿色一般代表正常。
-
-{% endnote %}
-
-
-可以写Markdown呀！
-
-```cpp
-#include <bits/stdc++.h>
-using namespace std;
-int main(){
-    int a, b;
-    cin >> a >> b;
-    string aStr;
-    cin >> aStr;
-    cout << a + b << aStr[a + b] << endl;
-    return 0;
-}
-```
-$$
-x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
-$$
-
-{% note success %}
-
-绿色一般代表正常。
-
-{% endnote %}
-
 
 {% endspoiler %}
