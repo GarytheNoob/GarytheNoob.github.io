@@ -25,7 +25,7 @@ tags:
 
 请注意，由于Markdown的作者的反对标准化立场，每家的Markdown渲染和语法支持可能都不同。现在主流的一种标准是[GitHub Flavored Markdown](https://github.github.com/gfm/)，简称**GFM**。其中有一些对标准Markdown的修改和添加。
 
-{% spoiler "渲染效果" %}
+{% note info %}
 2023/02/04更新：除了GFM，还有一些比较规范的Markdown标准比如[Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)。
 
 但不管是哪种标准，基本的写法是不会变的。
