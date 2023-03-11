@@ -25,7 +25,7 @@ tags:
 
 请注意，由于Markdown的作者的反对标准化立场，每家的Markdown渲染和语法支持可能都不同。现在主流的一种标准是[GitHub Flavored Markdown](https://github.github.com/gfm/)，简称**GFM**。其中有一些对标准Markdown的修改和添加。
 
-{% note secondary %}
+{% spoiler "渲染效果" %}
 2023/02/04更新：除了GFM，还有一些比较规范的Markdown标准比如[Pandoc's Markdown](https://pandoc.org/MANUAL.html#pandocs-markdown)。
 
 但不管是哪种标准，基本的写法是不会变的。
@@ -121,9 +121,9 @@ tags:
 这一段中某些字是**加粗**的。
 ```
 
-{% note secondary %}
+{% spoiler "渲染效果" %}
 这一段中某些字是**加粗**的。
-{% endnote %}
+{% endspoiler %}
 
 加粗可以选择字段后通过快捷键`Ctrl+B`实现。
 
@@ -135,9 +135,9 @@ tags:
 这一段中某些字是*倾斜*的。
 ```
 
-{% note secondary %}
+{% spoiler "渲染效果" %}
 这一段中某些字是*倾斜*的。
-{% endnote %}
+{% endspoiler %}
 
 加粗可以选择字段后通过快捷键`Ctrl+I`实现。
 
@@ -149,9 +149,9 @@ tags:
 这一段中某些字是<u>划线</u>的。
 ```
 
-{% note secondary %}
+{% spoiler "渲染效果" %}
 这一段中某些字是<u>划线</u>的。
-{% endnote %}
+{% endspoiler %}
 
 ### 删除线
 
@@ -161,9 +161,9 @@ tags:
 这一段中某些字是~~谢~~写错了的。
 ```
 
-{% note secondary %}
+{% spoiler "渲染效果" %}
 这一段中某些字是~~谢~~写错了的。
-{% endnote %}
+{% endspoiler %}
 
 ### 样式组合
 
@@ -172,9 +172,9 @@ tags:
 ```markdown
 这一段中某些字**很粗还~~撮~~错啦**，有些字 ***又粗又斜***，有些字<u>*斜还划线*</u>，有些字则<u>***无比重要***</u>。
 ```
-{% note secondary %}
+{% spoiler "渲染效果" %}
 这一段中某些字**很粗还~~撮~~错啦**，有些字 ***又粗又斜***，有些字<u>*斜还划线*</u>，有些字则<u>***无比重要***</u>。
-{% endnote %}
+{% endspoiler %}
 
 {% note warning %}
 有些时候可能会出现错误，比如上面的`有些字 ***又粗又斜***`，这里需要一个空格将特殊文本和普通文本分开。但是这种情况在不同的编辑器上不一定出现，还请自行判断。
@@ -225,9 +225,9 @@ https://www.baidu.com
 一些搜索引擎包括[百度](https://baidu.com)、[谷歌](https://google.com)等。
 ```
 
-{% note secondary %}
+{% spoiler "渲染效果" %}
 一些搜索引擎包括[百度](https://baidu.com)、[谷歌](https://google.com)等。
-{% endnote %}
+{% endspoiler %}
 
 Markdown还支持添加鼠标放上超链接显示的文字，需要在网址后面添加空格` `然后添加用`""`包围的提示文本：
 
@@ -235,13 +235,10 @@ Markdown还支持添加鼠标放上超链接显示的文字，需要在网址后
 一些搜索引擎包括[百度](https://baidu.com "全球最大的中文搜索引擎")、[谷歌](https://google.com "全球最大的搜索引擎")等。
 ```
 
-{% note secondary %}
+{% spoiler "渲染效果" %}
 一些搜索引擎包括[百度](https://baidu.com "全球最大的中文搜索引擎")、[谷歌](https://google.com "全球最大的搜索引擎")等。
-{% endnote %}
+{% endspoiler %}
 
-{% note info %}
-在卡片中的超链接不会显示蓝色，但是仍然有超链接功能。
-{% endnote %}
 
 电脑端将鼠标放在超链接文字上即可看到悬浮提示。
 
@@ -315,11 +312,11 @@ a + b
 ```
 ````
 
-{% note secondary %}
+{% spoiler "渲染效果" %}
 ```text
 a + b
 ```
-{% endnote %}
+{% endspoiler %}
 
 如果要指定代码的语言让代码有语法高亮，则在开始的反引号后面注明语言。比如`c` `cpp` `java` `markdown` `python` `html` 等等：
 
@@ -329,11 +326,11 @@ print("Hello Markdown Code Block!")
 ```
 ````
 
-{% note secondary %}
+{% spoiler "渲染效果" %}
 ```python
 print("Hello Markdown Code Block!")
 ```
-{% endnote %}
+{% endspoiler %}
 
 {% note info %}
 
@@ -367,11 +364,11 @@ a + b
 代码中的`getDate()`函数会获取当天的日期。
 ```
 
-{% note secondary %}
+{% spoiler "渲染效果" %}
 任务管理器的快捷键是`Ctrl+Tab+Esc`。
 
 代码中的`getDate()`函数会获取当天的日期。
-{% endnote %}
+{% endspoiler %}
 
 ## 列表
 
@@ -505,7 +502,7 @@ Markdown支持的列表包括**无序列表**和**有序列表**，也支持多�
 
 ```
 
-{% note secondary %}
+{% spoiler "渲染效果" %}
 在「人是否要吃饭」这个问题上，已经有人做出了系统论述：
 
 >人是动物，不能进行光合作用，所以要通过从外界摄取能量来为维持自身生长发育。
@@ -516,7 +513,7 @@ Markdown支持的列表包括**无序列表**和**有序列表**，也支持多�
 >
 >科学上来说就是身体无时无刻都在消耗能量维持身体的生命活力，身体的消化器官——胃和肠道，没有足够的食物转换能量，则身体会发出能量缺乏的信号，吃饭的目的则是补充能量以供日常消耗所需。干体力活的人吃得比常人多也是这个原因。
 
-{% endnote %}
+{% endspoiler %}
 
 在引用块中，理论上上面的绝大多数语法都能正常使用，但是这还是取决于渲染器的支持程度。
 
