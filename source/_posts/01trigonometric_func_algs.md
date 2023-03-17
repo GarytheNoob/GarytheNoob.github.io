@@ -6,7 +6,7 @@ update: 2023/01/06 22:00
 mathjax: true
 math: true
 categories:
-- 学习
+- 数学
 tags:
 - 数学
 ---
