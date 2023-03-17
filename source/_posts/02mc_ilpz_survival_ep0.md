@@ -6,6 +6,7 @@ author: GarytheNoob
 categories:
 - 游戏
 - Minecraft
+- 【ilpz存档】
 tags:
 - Minecraft
 - 生存更新

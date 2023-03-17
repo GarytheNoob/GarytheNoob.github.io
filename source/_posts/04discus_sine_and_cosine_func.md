@@ -5,7 +5,7 @@ date: 2023/01/07 21:00
 mathjax: true
 math: true
 categories:
-- 学习
+- 数学
 tags:
 - 数学
 - 未完成
@@ -46,8 +46,8 @@ tags:
 >><u>*正减余加*</u>
 >
 >……
-
-*——来自「[三角函数宝典#倍角公式](https://garythenoob.github.io/trigonometric_func_algs/#%E4%BA%8C%E5%80%8D%E8%A7%92%E5%85%AC%E5%BC%8F)」*
+>
+>*——来自「[三角函数宝典#倍角公式](https://garythenoob.github.io/trigonometric_func_algs/#%E4%BA%8C%E5%80%8D%E8%A7%92%E5%85%AC%E5%BC%8F)」*
 
 看起来，是在研究降次升角公式的时候🤔
 
