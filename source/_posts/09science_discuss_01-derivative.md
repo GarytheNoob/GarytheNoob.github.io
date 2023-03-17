@@ -77,7 +77,7 @@ $$
 
 如果你想尝试一下，可以试着对$x$关于$t$求导，即求$x'=\frac{\mathrm dx}{\mathrm dt}$。不出意外，它恰好等于$v$。
 
-{% spoiler "求导过程"%}
+{% spoiler "推导过程"%}
 <br>
 注意到
 $$
@@ -102,7 +102,9 @@ $$
 
 {% note secondary %}
 
-如图，二次函数$y=x^2+bx+c$经过$B(3,0)$、$C(-1,0)$，交$y$轴于$A$点。$P$是第一象限内二次函数图像上一点，问当$\triangle PAB$的面积最大时，$P$点的坐标。
+**例**
+
+如图，二次函数$y=x^2+bx+c$的图像经过$B(3,0)$、$C(-1,0)$，交$y$轴于$A$点。$P$是第一象限内二次函数图像上一点，问当$\triangle PAB$的面积最大时，$P$点的坐标。
 
 <img src="\img\content\09science_discuss_01-derivative\quad_func_prob.png" alt="二次函数题目"  width="300" >
 
