@@ -223,18 +223,11 @@ $$p=\frac{m+n}{2}\nonumber$$
 有了引理$\left(\text{L}_1\right)$，刚刚的例题Q<sub>1</sub>便可以被真正「秒杀」：
 
 {% note secondary %}
-**解**：
-<details>
-<summary>计算过程略</summary>
-计算可得到二次函数解析式
+**解**：计算可得到二次函数解析式
 
 $$y=f(x)=-x^2+2x+3\nonumber$$
 
-且$A(0,3)$，则直线AB的斜率
-
-$$k_{AB}=\frac{y_B-y_A}{x_B-x_A}=\frac{0-3}{3-0}=-1\nonumber$$
-</details>
-<br>
+且$A(0,3)$
 
 分析得当抛物线过$P$点的切线平行于直线$AB$时，$\triangle PAB$的面积取到最大值。
 
