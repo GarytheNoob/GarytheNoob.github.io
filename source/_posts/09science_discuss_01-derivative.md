@@ -122,7 +122,7 @@ $$y=f(x)=-x^2+2x+3\nonumber$$
 
 $$k_{AB}=\frac{y_B-y_A}{x_B-x_A}=\frac{0-3}{3-0}=-1\nonumber$$
 
-分析得当抛物线过P点的切线平行于直线AB时，$\triangle PAB$的面积取到最大值。对$f(x)$求导得
+分析得当抛物线过$P$点的切线平行于直线$AB$时，$\triangle PAB$的面积取到最大值。对$f(x)$求导得
 
 $$f'(x)=-2x+2\nonumber$$
 
@@ -218,6 +218,8 @@ $$p=\frac{m+n}{2}\nonumber$$
 
 ### 引理的应用
 
+#### 二次函数压轴
+
 有了引理$\left(\text{L}_1\right)$，刚刚的例题Q<sub>1</sub>便可以被真正「秒杀」：
 
 {% note secondary %}
@@ -233,7 +235,7 @@ $$y=f(x)=-x^2+2x+3\nonumber$$
 $$k_{AB}=\frac{y_B-y_A}{x_B-x_A}=\frac{0-3}{3-0}=-1\nonumber$$
 </details>
 <br>
-分析得当抛物线过P点的切线平行于直线AB时，$\triangle PAB$的面积取到最大值。
+分析得当抛物线过$P$点的切线平行于直线$AB$时，$\triangle PAB$的面积取到最大值。
 
 根据引理$\left(\text{L}_1\right)$，可知当$P$点横坐标满足
 
@@ -246,3 +248,6 @@ $$p_0=\frac{x_A+x_B}{2}=\frac{3}{2}\nonumber$$
 $$P\left(\frac{3}{2},\frac{15}{4}\right)\nonumber$$
 
 {% endnote %}
+
+#### 匀速直线运动
+
