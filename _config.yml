@@ -108,7 +108,7 @@ deploy:
   type: git
   repo: https://github.com/GarytheNoob/GarytheNoob.github.io
   branch: main
-  token: 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
+  token: ##############################
 
 # MathJax
 #math:
