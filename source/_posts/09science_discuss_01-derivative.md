@@ -68,15 +68,15 @@ tags:
 
 {% note primary %}
 $$
-\begin{align}
-x_1&=\frac{1}{2}at^2 \nonumber\\
-v_1&=at \nonumber\\
-\end{align}
-\qquad
-\begin{align}
-x_2&=v_0t+\frac{1}{2}at^2 \nonumber\\
-v_2&=v_0+at \nonumber\\
-\end{align}
+\begin{array}{l}
+x_1=\frac{1}{2}at^2 \nonumber\\
+v_1=at \nonumber\\
+\end{array}
+\ \ \ \
+\begin{array}{l}
+x_2=v_0t+\frac{1}{2}at^2 \nonumber\\
+v_2=v_0+at \nonumber\\
+\end{array}
 $$
 {% endnote %}
 
