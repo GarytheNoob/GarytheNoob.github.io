@@ -68,15 +68,13 @@ tags:
 
 {% note primary %}
 $$
-\begin{array}{l}
-x_1=\frac{1}{2}at^2 \nonumber\\
-v_1=at \nonumber\\
-\end{array}
-\ \ \ \
-\begin{array}{l}
-x_2=v_0t+\frac{1}{2}at^2 \nonumber\\
-v_2=v_0+at \nonumber\\
-\end{array}
+\begin{align}
+x_1&=\frac{1}{2}at^2 \nonumber\\
+v_1&=at \nonumber\\
+\ \ \ \nonumber\\
+x_2&=v_0t+\frac{1}{2}at^2 \nonumber\\
+v_2&=v_0+at \nonumber\\
+\end{align}
 $$
 {% endnote %}
 
@@ -96,7 +94,7 @@ x_1'=\frac{\mathrm dx_1}{\mathrm dt}&=\left(\frac{a}{2}\right)'\cdot t^2+\frac{a
 \end{align}
 $$
 另外，有
-$$x_2=v_0t+x_1$$
+$$x_2=v_0t+x_1\nonumber$$
 则
 $$
 \begin{align}
