@@ -16,4 +16,4 @@ date: 1/1/1 00:00
 
 - 网站最近更新
 
-  [![](https://img.shields.io/github/last-commit/garythenoob/garythenoob.github.io?logo=GitHub&style=for-the-badge)](https://github.com/GarytheNoob/GarytheNoob.github.io)
+  [![](https://img.shields.io/github/last-commit/garythenoob/garythenoob.github.io?logo=GitHub&style=for-the-badge)](https://github.com/GarytheNoob/GarytheNoob.github.io/commits/)
