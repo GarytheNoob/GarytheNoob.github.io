@@ -64,13 +64,18 @@ tags:
 
 既然我们直接提到了导数与运动学概念速度的联系，那让我们看看具体的。
 
-在匀速直线运动中，有这两个公式：
+在匀速直线运动中，有这两组公式：
 
 {% note primary %}
 $$
 \begin{align}
-x&=\frac{1}{2}at^2 \nonumber\\
-v&=at \nonumber\\
+x_1&=\frac{1}{2}at^2 \nonumber\\
+v_1&=at \nonumber\\
+\end{align}
+\qquad
+\begin{align}
+x_2&=v_0t+\frac{1}{2}at^2 \nonumber\\
+v_2&=v_0+at \nonumber\\
 \end{align}
 $$
 {% endnote %}
@@ -80,16 +85,28 @@ $$
 {% spoiler "推导过程"%}
 <br>
 注意到
-$$x=\frac{a}{2}\cdot t^2\nonumber$$
+$$x_1=\frac{a}{2}\cdot t^2\nonumber$$
 则
 $$
 \begin{align}
-x'=\frac{\mathrm dx}{\mathrm dt}&=\left(\frac{a}{2}\right)'\cdot t^2+\frac{a}{2}\cdot \left(t^2\right)'\nonumber\\
+x_1'=\frac{\mathrm dx_1}{\mathrm dt}&=\left(\frac{a}{2}\right)'\cdot t^2+\frac{a}{2}\cdot \left(t^2\right)'\nonumber\\
 &=0+\frac{a}{2}\cdot 2t \nonumber\\
 &=at \nonumber\\
-&=v \nonumber
+&=v_1 \nonumber
 \end{align}
 $$
+另外，有
+$$x_2=v_0t+x_1$$
+则
+$$
+\begin{align}
+x_2'=\frac{\mathrm d}{\mathrm dt}(v_0t)+\frac{\mathrm dx_1}{\mathrm dt}&=v_0+x_1' \nonumber\\
+&=v_0+v_1 \nonumber\\
+&=v_0+at \nonumber\\
+&=v_2 \nonumber
+\end{align}
+$$
+故有上述结论。
 {% endspoiler %}
 
 这个结论似乎并没有出乎我们的意料——导数本该如此。但是当我们了解了一些其他的结论的时候，运动学中的一些结论似乎会变得有意思起来。
