@@ -51,6 +51,10 @@ tags:
     ![复制网址](/img/content/download_music_discuss/Snipaste_2023-01-28_21-43-40.png)
     ![输入网址](/img/content/download_music_discuss/Snipaste_2023-01-28_21-49-10.png)
 
+{% note warning %}
+建议使用**Chromium内核的浏览器**，推荐使用原版**Google Chrome**或者**新版Microsoft Edge**。其它的浏览器的开发者工具的样式/功能可能不一样。比如Firefox就无法完整导出响应的值（下面第4步）。
+{% endnote %}
+
 2. 在浏览器按`F12`打开开发者工具，选择上方的「网络」（Network）选项卡，在搜索栏中输入`lyric`：
     ![开发者工具](/img/content/download_music_discuss/Snipaste_2023-01-28_21-56-59.png)
 
