@@ -24,6 +24,38 @@ comment: 'waline'
 
 ## 关于这个网页
 
-本网页基于[Hexo](https://hexo.io/)框架搭建，使用[hexo-fluid](https://hexo.fluid-dev.com/)主题，部署在[Github Pages](https://pages.github.com/)上。
+本网页基于[Hexo](https://hexo.io/)框架搭建，使用[Fluid](https://hexo.fluid-dev.com/)主题，部署在[Github Pages](https://pages.github.com/)上。
 
+{% spoiler "技术&鸣谢"%}
 
+- [Node.js](https://nodejs.org/)
+
+<img src="https://nodejs.dev/static/images/brand/logos-js-right/dark.svg" width="150" >
+
+- [npm](https://www.npmjs.com/)
+
+<img src="https://avatars.githubusercontent.com/u/6078720?s=200&v=4" width="150" >
+
+- [Hexo](https://hexo.io/)
+
+<img src="https://d33wubrfki0l68.cloudfront.net/6657ba50e702d84afb32fe846bed54fba1a77add/827ae/logo.svg" width="150" >
+
+- [Fluid](https://hexo.fluid-dev.com/)
+
+<img src="/img/logo/fluid.png" width="150" >
+
+- [Github](https://github.com)
+
+<img src="/img/logo/github-mark.svg" width="150" >
+
+- [MathJax](https://www.mathjax.org/)
+
+<a href="https://www.mathjax.org">
+    <img title="Powered by MathJax"
+    src="https://www.mathjax.org/badge/badge-square-3.png"
+    border="0" alt="Powered by MathJax" />
+</a>
+
+- [Pandoc](https://pandoc.org/)
+
+{% endspoiler %}
