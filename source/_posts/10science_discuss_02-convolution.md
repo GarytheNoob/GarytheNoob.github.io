@@ -146,7 +146,9 @@ $$t_2[n]=[1,2,1]\nonumber$$
 
 则
 
-$$\left(t_2 \ast t_2\right)[n] = [1,4,6,4,1] = t_1 \nonumber$$
+$$\left(t_2\ast t_2\right)[n]=[1,4,6,4,1]=t_1 \nonumber$$
+
+
 
 ### Unfinished
 
