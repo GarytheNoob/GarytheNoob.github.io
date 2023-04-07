@@ -1,5 +1,5 @@
 ---
-title: "【新系列】【理科拾遗】1.导数和运动学"
+title: "【新系列】【理科拾遗】1.导数"
 author: GarytheNoob
 date: 2023/03/17 23:00
 mathjax: true
