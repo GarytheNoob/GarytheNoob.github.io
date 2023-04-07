@@ -56,7 +56,7 @@ tags:
 
 那么让我们仔细来分析一下`1, 4, 6, 4, 1`这个数列。不妨给他起个名字吧。
 
-$$t_2[n]=[1,4,6,4,1]$$
+$$t_2[n]=[1,4,6,4,1]\nonumber$$
 
 - 这个数列一定是回文（对称）的。
   这是因为，在我们的统计中大写字母和小写字母的地位相等。如果统计小写字母，理论上会得到与统计大写字母相反的结果；又因为地位相等所以会得到和大写字母相同的结果，所以大写字母的统计结果必然是回文的。
@@ -66,10 +66,10 @@ $$t_2[n]=[1,4,6,4,1]$$
 除此之外，不仅是两对等位基因，其他数量对等位基因的这个结果也会出现在杨辉三角中。
 
 1. 一对等位基因（Aa 自交）：
-  $$t_1[n]=[1,2,1]$$
+  $$t_1[n]=[1,2,1]\nonumber$$
 
 2. 三对等位基因（AaBbCc 自交）：
-  $$t_3[n]=[1,6,15,20,15,6,1]$$
+  $$t_3[n]=[1,6,15,20,15,6,1]\nonumber$$
 
 ### 杨辉三角
 
@@ -133,7 +133,7 @@ $$
 <details>
 <summary>Bilibili视频</summary>
 <div style="position: relative; padding: 30% 45%;">
-<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?aid=391585555&bvid=BV1Vd4y1e7pj&cid=931763043&page=1" frameborder="no" scrolling="no"></iframe>
+<iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?aid=391585555&bvid=BV1Vd4y1e7pj&cid=931763043&page=1&autoplay=0" frameborder="no" scrolling="no"></iframe>
 </details>
 
 
@@ -150,11 +150,11 @@ $$
 
 我们这次只需要了解离散的卷积，而这一点在视频中已经有了体现。所以让我们直接开始尝试吧。
 
-$$t_1[n]=[1,2,1]$$
+$$t_1[n]=[1,2,1]\nonumber$$
 
-与它自己进行离散卷积之后
+与它自己进行离散卷积之后（「 $\ast$ 」是卷积的符号）：
 
-$$\left(t_1 \ast t_1\right)[n]=[1,4,6,4,1]=t_2$$
+$$\left(t_1 \ast t_1\right)[n]=[1,4,6,4,1]=t_2[n]\nonumber$$
 
 看来我们已经得出了结论。遗传（似乎已经没啥关系了）确实和卷积有关。
 
@@ -176,5 +176,50 @@ $$
 \nonumber
 $$
 
-### Unfinished
+{% note info%}
+别忘记，本文中对于行的计数是**从第0行开始**的。
+{% endnote %}
 
+在上一节的例子中，$t_1[n]$ 作为第2行，与它自己（第2行）卷积后得到的 $t_2[n]$ 则是第4行。
+
+如果用 $L_n$ 表示杨辉三角第n行（$n\in\mathbb N^{\ast}$）的内容（再次提醒，从0开始），那么刚刚的过程可以表示成：
+
+$$L_2\ast L_2=L_4\nonumber$$
+
+让我们多试一试，以下是一部分的Python控制台输出：
+
+```python
+#Python 3.11.0 [MSC v.1933 64 bit (AMD64)] on win32
+#Type "help", "copyright", "credits" or "license" for more information.
+
+>>> import numpy as np                #引入卷积函数依赖库
+>>> L2=[1,2,1]                        #杨辉三角第二行
+>>> L3=[1,3,3,1]                      #第三行
+>>> np.convolve(L2, L3)               #计算L2与L3的卷积
+array([ 1,  5, 10, 10,  5,  1])
+>>> L4=[1,4,6,4,1]                    #第四行
+>>> np.convolve(L2, L4)               #计算L2与L4的卷积
+array([ 1,  6, 15, 20, 15,  6,  1])
+>>> np.convolve(L3, L4)               #计算L3与L4的卷积
+array([ 1,  7, 21, 35, 35, 21,  7,  1])
+```
+
+如果你无法理解，上面这段代码显示了几次卷积运算的结果（Python在这里就是个计算器）：
+
+$$
+\begin{align}
+L_2\ast L_3=L_5\nonumber\\
+L_2\ast L_4=L_6\nonumber\\
+L_3\ast L_4=L_7\nonumber\\
+\end{align}
+$$
+
+经过了更多的计算，不难发现：
+
+$$L_a\ast L_b=L_{a+b}\nonumber$$
+
+其中 $a,b\in\mathbb N^{\ast}$ 且 $L_n$ 表示杨辉三角第n行（从0开始）。
+
+## 总结
+
+这一次，我们从叠加效应的遗传题出发，着重关注了杂合子自交后代中，基因型大写字母（显性基因）个数的出现次数。然后我们从该次数形成的数列入手，发现其与杨辉三角有很大关系。接着我们分析了它的构造过程，并从中发现其与卷积运算的关系。最后我们还得出了在杨辉三角中的卷积的结论。
