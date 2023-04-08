@@ -187,10 +187,7 @@ $$L_2\ast L_2=L_4\nonumber$$
 
 让我们多试一试，以下是一部分的Python控制台输出：
 
-```python
-#Python 3.11.0 [MSC v.1933 64 bit (AMD64)] on win32
-#Type "help", "copyright", "credits" or "license" for more information.
-
+```pycon
 >>> import numpy as np                #引入卷积函数依赖库
 >>> L2=[1,2,1]                        #杨辉三角第二行
 >>> L3=[1,3,3,1]                      #第三行
