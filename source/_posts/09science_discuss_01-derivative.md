@@ -86,8 +86,9 @@ $$
 $$x_1=\frac{a}{2}\cdot t^2\nonumber$$
 则
 $$
+\newcommand\diff{\,\mathrm{d}}
 \begin{align}
-x_1'=\frac{\mathrm dx_1}{\mathrm dt}&=\left(\frac{a}{2}\right)'\cdot t^2+\frac{a}{2}\cdot \left(t^2\right)'\nonumber\\
+x_1'=\frac{\diff x_1}{\diff t}&=\left(\frac{a}{2}\right)'\cdot t^2+\frac{a}{2}\cdot \left(t^2\right)'\nonumber\\
 &=0+\frac{a}{2}\cdot 2t \nonumber\\
 &=at \nonumber\\
 &=v_1 \nonumber
@@ -97,8 +98,9 @@ $$
 $$x_2=v_0t+x_1\nonumber$$
 则
 $$
+\newcommand\diff{\,\mathrm{d}}
 \begin{align}
-x_2'=\frac{\mathrm d}{\mathrm dt}(v_0t)+\frac{\mathrm dx_1}{\mathrm dt}&=v_0+x_1' \nonumber\\
+x_2'=\frac{\diff}{\diff t}\left(v_0t\right)+\frac{\diff x_1}{\diff t}&=v_0+x_1' \nonumber\\
 &=v_0+v_1 \nonumber\\
 &=v_0+at \nonumber\\
 &=v_2 \nonumber

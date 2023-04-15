@@ -98,7 +98,14 @@ $$
 \ce{_1^1H  _1^2H  _1^3H}
 $$
 
+
 上面是一些化学符号
+
+$$
+\newcommand\diff{\,\mathrm{d}}
+\diff
+$$
+
 
 ## GeoGebra
 
