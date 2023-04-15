@@ -370,7 +370,8 @@ navbar:
       submenu: [
         { key: 'GitHub仓库页', link: 'https://github.com/GarytheNoob/GarytheNoob.github.io', icon: "iconfont icon-github-fill"},
         { key: '网站状态', link: '/status/', icon: "iconfont icon-clipcheck"},
-        { key: '排版测试页', link: 'https://garythenoob.github.io/00typography_test', icon: "iconfont icon-exp-fill"}
+        { key: '排版测试页', link: 'https://garythenoob.github.io/00typography_test', icon: "iconfont icon-exp-fill"},
+        { key: 'Fluid配置文档', link: 'https://hexo.fluid-dev.com/docs/guide/', icon: "iconfont icon-books"}
       ]
     }
 
@@ -709,7 +710,7 @@ post:
     enable: true
     # 脚注的节标题，也可以在 front-matter 中通过 `footnote: <h2>Reference</h2>` 这种形式修改单独页面的 header
     # The section title of the footnote, you can also modify the header of a single page in the form of `footnote: <h2>Reference</h2>` in front-matter
-    header: ''
+    header: '<h2>参考</h2>'
 
   # 数学公式，开启之前需要更换 Markdown 渲染器，否则复杂公式会有兼容问题，具体请见：https://hexo.fluid-dev.com/docs/guide/##latex-数学公式
   # Mathematical formula. If enable, you need to change the Markdown renderer, see: https://hexo.fluid-dev.com/docs/en/guide/#math
@@ -965,6 +966,12 @@ links:
       intro: "66Leo66的博客页面",
       link: "https://blog.6leo6.com/",
       avatar: "https://avatars.githubusercontent.com/u/33322229?v=4"
+    }
+    - {
+      title: "4T1M Official Site",
+      intro: "4T1M : Where Slackers Meet",
+      link: "https://4t1m.win/",
+      avatar: "https://4t1m.win/img/logo/4t1m_avatar.png"
     }
 
   # 当成员头像加载失败时，替换为指定图片

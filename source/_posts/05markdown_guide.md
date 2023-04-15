@@ -40,7 +40,7 @@ Markdown和Word等软件的用法最大的不同，在于Markdown是**所见非�
 
 但是也有弊端：
 
-- **单一的排版** Markdown的排版大多都像本文这样，是一长串文字。不像在其他编辑器中，可以做到不一样的效果，比如分栏、文本框等。正如刚刚所说，Markdown处理的是**纯粹的文字**。
+- **单一的排版** Markdown的排版大多都像本文这样，是一长串文字。不像在其他编辑器中可以做到不一样的效果，比如分栏、文本框等。正如刚刚所说，Markdown处理的是**纯粹的文字**。
 
 
 ### 一定要用Markdown替代Word吗？
@@ -49,7 +49,9 @@ Markdown和Word等软件的用法最大的不同，在于Markdown是**所见非�
 
 首先，Markdown和Word对于文字处理各有所长。Word主打直观方便，而Markdown则更简单有效率。所以我个人不是很赞同网络上的所谓「放弃Word吧，来用Markdown」的观点——两家各有所长，需要分情况。
 
-Markdown作为一种轻量的标记语言，很适合写博客（比如本文）或者一些简单的说明。在GitHub中，Markdown更是广泛使用。[GitHub的中文版Markdown文档](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+Markdown作为一种轻量的标记语言，很适合写博客（比如本文）或者一些简单的说明。在GitHub中，Markdown更是广泛使用[^1]。
+
+[^1]:[GitHub的中文版Markdown文档](https://docs.github.com/zh/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
 使用Markdown可以很轻松地完成简单的排版，且效果高级，操作简单。通过软件的导出功能更是可以导出为PDF或者Word文档，甚至直接导出为图片。
 
