@@ -26,19 +26,19 @@ tags:
 >对于$(\text{C}_{2\alpha})$，如果根据$\text{(R1)}$将其变形，可得：
 >
 >$$
->\begin{align}
->\cos2\alpha&=1-2\sin^2\alpha\nonumber\\
->&=2\cos^2\alpha-1\nonumber\\
->\end{align}
+>\begin{align*}
+>\cos2\alpha&=1-2\sin^2\alpha\\
+>&=2\cos^2\alpha-1\\
+>\end{align*}
 >$$
 >
 >那么，根据这两个变形后的式子，可以推出两个降次升角公式，只需简单地进行变形：
 >
 >$$
->\begin{align}
+>\begin{align*}
 >\sin^2\alpha&=\frac{1-\cos2\alpha}{2}\tag{$\text S_\text{降次升角}$}\\
 >\cos^2\alpha&=\frac{1+\sin2\alpha}{2}\tag{$\text C_\text{降次升角}$}\\
->\end{align}
+>\end{align*}
 >$$
 >
 >这两个公式就是**降次升角公式**。如你所见，从等号左边向右边运用公式的时候，三角函数的次数降了而角的大小翻倍了。对于这个公式只需要记住一个口诀：

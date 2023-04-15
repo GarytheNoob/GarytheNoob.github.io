@@ -33,53 +33,53 @@ tags:
 ### 第一象限
 
 $$
-\begin{align}
-\theta\in\left[2k\pi,2k\pi+\frac{\pi}{2}\right]&,\ k\in\mathbb{Z}:\nonumber\\
-\sin\theta>0\nonumber\\
-\cos\theta>0\nonumber\\
-\tan\theta>0\nonumber\\
-\end{align}
+\begin{align*}
+\theta\in\left[2k\pi,2k\pi+\frac{\pi}{2}\right]&,\ k\in\mathbb{Z}:\\
+\sin\theta>0\\
+\cos\theta>0\\
+\tan\theta>0\\
+\end{align*}
 $$
 
 ### 第二象限
 
 $$
-\begin{align}
-\theta\in\left[2k\pi+\frac{\pi}{2},2k\pi+\pi\right]&,\ k\in\mathbb{Z}:\nonumber\\
-\sin\theta>0\nonumber\\
-\cos\theta<0\nonumber\\
-\tan\theta<0\nonumber\\
-\end{align}
+\begin{align*}
+\theta\in\left[2k\pi+\frac{\pi}{2},2k\pi+\pi\right]&,\ k\in\mathbb{Z}:\\
+\sin\theta>0\\
+\cos\theta<0\\
+\tan\theta<0\\
+\end{align*}
 $$
 
 ### 第三象限
 
 $$
-\begin{align}
-\theta\in\left[2k\pi-\pi,2k\pi-\frac{\pi}{2}\right]&,\ k\in\mathbb{Z}:\nonumber\\
-\sin\theta<0\nonumber\\
-\cos\theta<0\nonumber\\
-\tan\theta>0\nonumber\\
-\end{align}
+\begin{align*}
+\theta\in\left[2k\pi-\pi,2k\pi-\frac{\pi}{2}\right]&,\ k\in\mathbb{Z}:\\
+\sin\theta<0\\
+\cos\theta<0\\
+\tan\theta>0\\
+\end{align*}
 $$
 
 ### 第四象限
 
 $$
-\begin{align}
-\theta\in\left[2k\pi-\frac{\pi}{2},2k\pi\right]&,\ k\in\mathbb{Z}:\nonumber\\
-\sin\theta<0\nonumber\\
-\cos\theta<0\nonumber\\
-\tan\theta>0\nonumber\\
-\end{align}
+\begin{align*}
+\theta\in\left[2k\pi-\frac{\pi}{2},2k\pi\right]&,\ k\in\mathbb{Z}:\\
+\sin\theta<0\\
+\cos\theta<0\\
+\tan\theta>0\\
+\end{align*}
 $$
 
 ## 同角三角函数关系
 $$
-\begin{align}
+\begin{align*}
 \sin^2\alpha+\cos^2\alpha&=1 \tag{R1}\\
-\frac{\sin\alpha}{\cos\alpha}&=\tan\alpha\nonumber \tag{R2}\\
-\end{align}
+\frac{\sin\alpha}{\cos\alpha}&=\tan\alpha \tag{R2}\\
+\end{align*}
 $$
 
 
@@ -91,59 +91,59 @@ $$
 
 对任意$k\in\mathbb{Z}$，有：
 $$
-\begin{align}
-\sin(\alpha+2k\pi)&=\sin\alpha\nonumber\\
-\cos(\alpha+2k\pi)&=\cos\alpha\nonumber\\
-\tan(\alpha+2k\pi)&=\tan\alpha\nonumber\\
-\end{align}
+\begin{align*}
+\sin(\alpha+2k\pi)&=\sin\alpha\\
+\cos(\alpha+2k\pi)&=\cos\alpha\\
+\tan(\alpha+2k\pi)&=\tan\alpha\\
+\end{align*}
 $$
 
 ### 2.
 
 $$
-\begin{align}
-\sin(\alpha+\pi)&=-\sin\alpha\nonumber\\
-\cos(\alpha+\pi)&=-\cos\alpha\nonumber\\
-\tan(\alpha+\pi)&=\tan\alpha\nonumber\\
-\end{align}
+\begin{align*}
+\sin(\alpha+\pi)&=-\sin\alpha\\
+\cos(\alpha+\pi)&=-\cos\alpha\\
+\tan(\alpha+\pi)&=\tan\alpha\\
+\end{align*}
 $$
 
 ### 3.
 
 $$
-\begin{align}
-\sin(-\alpha)&=-\sin\alpha\nonumber\\
-\cos(-\alpha)&=\cos\alpha\nonumber\\
-\tan(-\alpha)&=-\tan\alpha\nonumber\\
-\end{align}
+\begin{align*}
+\sin(-\alpha)&=-\sin\alpha\\
+\cos(-\alpha)&=\cos\alpha\\
+\tan(-\alpha)&=-\tan\alpha\\
+\end{align*}
 $$
 
 ### 4.
 
 $$
-\begin{align}
-\sin(\pi-\alpha)&=\sin\alpha\nonumber\\
-\cos(\pi-\alpha)&=-\cos\alpha\nonumber\\
-\tan(\pi-\alpha)&=-\tan\alpha\nonumber\\
-\end{align}
+\begin{align*}
+\sin(\pi-\alpha)&=\sin\alpha\\
+\cos(\pi-\alpha)&=-\cos\alpha\\
+\tan(\pi-\alpha)&=-\tan\alpha\\
+\end{align*}
 $$
 
 ### 5.
 
 $$
-\begin{align}
-\sin\left(\frac{\pi}{2}-\alpha\right)&=\cos\alpha\nonumber\\
-\cos\left(\frac{\pi}{2}-\alpha\right)&=\sin\alpha\nonumber\\
-\end{align}
+\begin{align*}
+\sin\left(\frac{\pi}{2}-\alpha\right)&=\cos\alpha\\
+\cos\left(\frac{\pi}{2}-\alpha\right)&=\sin\alpha\\
+\end{align*}
 $$
 
 ### 6.
 
 $$
-\begin{align}
-\sin\left(\frac{\pi}{2}+\alpha\right)&=\cos\alpha\nonumber\\
-\cos\left(\frac{\pi}{2}+\alpha\right)&=-\sin\alpha\nonumber\\
-\end{align}
+\begin{align*}
+\sin\left(\frac{\pi}{2}+\alpha\right)&=\cos\alpha\\
+\cos\left(\frac{\pi}{2}+\alpha\right)&=-\sin\alpha\\
+\end{align*}
 $$
 
 ### 绝招
@@ -187,10 +187,10 @@ $$
 
 观察$(\text I)$式，假设$\alpha$是第一象限角，则$\left(\alpha-\frac{5\pi}{2}\right)$是第四象限角，根据 ***各象限内三角函数值符号*** ，在第四象限内角的正弦值小于0，所以应在$(\text{II})$式的$\cos\alpha$前的符号取负号，即为：
 $$
-\begin{align}
-&-(-cos\alpha)\nonumber\\
-=&\cos\alpha\nonumber\\
-\end{align}
+\begin{align*}
+&-(-cos\alpha)\\
+=&\cos\alpha\\
+\end{align*}
 $$
 
 ## 三角恒等变换
@@ -205,19 +205,19 @@ $$
 #### 正弦
 
 $$
-\begin{align}
+\begin{align*}
 \sin(\alpha+\beta)&=\sin\alpha\cos\beta+\cos\alpha\sin\beta \tag{$\text S_{(\alpha+\beta)}$}\\
 \sin(\alpha-\beta)&=\sin\alpha\cos\beta-\cos\alpha\sin\beta \tag{$\text S_{(\alpha-\beta)}$}\\
-\end{align}
+\end{align*}
 $$
 
 #### 余弦
 
 $$
-\begin{align}
+\begin{align*}
 \cos(\alpha+\beta)&=\cos\alpha\cos\beta-\sin\alpha\sin\beta \tag{$\text C_{(\alpha+\beta)}$}\\
 \cos(\alpha-\beta)&=\cos\alpha\cos\beta+\sin\alpha\sin\beta \tag{$\text C_{(\alpha-\beta)}$}\\
-\end{align}
+\end{align*}
 $$
 
 {% note secodary %}
@@ -230,10 +230,10 @@ $$
 #### 正切
 
 $$
-\begin{align}
+\begin{align*}
 \tan(\alpha+\beta)&=\frac{\tan\alpha+\tan\beta}{1-\tan\alpha\tan\beta} \tag{$\text T_{(\alpha+\beta)}$}\\
 \tan(\alpha-\beta)&=\frac{\tan\alpha-\tan\beta}{1+\tan\alpha\tan\beta} \tag{$\text T_{(\alpha-\beta)}$}\\
-\end{align}
+\end{align*}
 $$
 
 ### （二）倍角公式
@@ -241,29 +241,29 @@ $$
 令上述6个公式中的$\beta$等于$\alpha$，我们可以得到：
 
 $$
-\begin{align}
+\begin{align*}
 \sin2\alpha&=2\sin\alpha\cos\alpha \tag{$\text S_{2\alpha}$}\\
 \cos2\alpha&=\cos^2\alpha-\sin^2\alpha \tag{$\text C_{2\alpha}$}\\
 \tan2\alpha&=\frac{2\tan\alpha}{1-\tan^2\alpha} \tag{$\text T_{2\alpha}$}\\
-\end{align}
+\end{align*}
 $$
 
 对于$(\text{C}_{2\alpha})$，如果根据$\text{(R1)}$将其变形，可得：
 
 $$
-\begin{align}
-\cos2\alpha&=1-2\sin^2\alpha\nonumber\\
-&=2\cos^2\alpha-1\nonumber\\
-\end{align}
+\begin{align*}
+\cos2\alpha&=1-2\sin^2\alpha\\
+&=2\cos^2\alpha-1\\
+\end{align*}
 $$
 
 那么，根据这两个变形后的式子，可以推出两个降次升角公式，只需简单地进行变形：
 
 $$
-\begin{align}
+\begin{align*}
 \sin^2\alpha&=\frac{1-\cos2\alpha}{2}\tag{$\text S_\text{降次升角}$}\\
 \cos^2\alpha&=\frac{1+\sin2\alpha}{2}\tag{$\text C_\text{降次升角}$}\\
-\end{align}
+\end{align*}
 $$
 
 这两个公式就是**降次升角公式**。如你所见，从等号左边向右边运用公式的时候，三角函数的次数降了而角的大小翻倍了。对于这个公式只需要记住一个口诀：
@@ -275,10 +275,10 @@ $$
 此外，正弦和余弦的倍角公式还可以用正切函数表示：
 
 $$
-\begin{align}
-\sin2\alpha&=\frac{2\tan\alpha}{1+\tan^2\alpha}\nonumber\\
-\cos2\alpha&=\frac{1-\tan^2\alpha}{1+\tan^2\alpha}\nonumber\\
-\end{align}
+\begin{align*}
+\sin2\alpha&=\frac{2\tan\alpha}{1+\tan^2\alpha}\\
+\cos2\alpha&=\frac{1-\tan^2\alpha}{1+\tan^2\alpha}\\
+\end{align*}
 $$
 
 可能你已经发现了，上述这两个公式相除就能得到$(\text{T}_{2\alpha})$公式，所以希望你记得住！
@@ -292,11 +292,11 @@ $$
 刚刚我们认识了降次升角公式，现在我们再将其进行拓展。首先，将$\alpha$和$2\alpha$都缩小至原来的一半，同时可以将正弦版本和余弦版本相除得到正切版本的降次升角公式，再将两边同时开方：
 
 $$
-\begin{align}
-\sin\frac{\alpha}{2}&=\pm\sqrt{\frac{1-\cos\alpha}{2}}\nonumber\\
-\cos\frac{\alpha}{2}&=\pm\sqrt{\frac{1+\cos\alpha}{2}}\nonumber\\
-\tan\frac{\alpha}{2}&=\pm\sqrt{\frac{1-\cos\alpha}{1+\cos\alpha}}\nonumber\\
-\end{align}
+\begin{align*}
+\sin\frac{\alpha}{2}&=\pm\sqrt{\frac{1-\cos\alpha}{2}}\\
+\cos\frac{\alpha}{2}&=\pm\sqrt{\frac{1+\cos\alpha}{2}}\\
+\tan\frac{\alpha}{2}&=\pm\sqrt{\frac{1-\cos\alpha}{1+\cos\alpha}}\\
+\end{align*}
 $$
 
 {% note info %}
@@ -309,10 +309,10 @@ $$
 
 我还必须介绍另外几个正切函数的半角公式：
 $$
-\begin{align}
-\tan\frac{\alpha}{2}&=\frac{1-\cos\alpha}{\sin\alpha}\nonumber\\
-&=\frac{\sin\alpha}{1+\cos\alpha}\nonumber\\
-\end{align}
+\begin{align*}
+\tan\frac{\alpha}{2}&=\frac{1-\cos\alpha}{\sin\alpha}\\
+&=\frac{\sin\alpha}{1+\cos\alpha}\\
+\end{align*}
 $$
 
 #### 辅助角公式
@@ -322,20 +322,20 @@ $$
 辅助角公式：
 
 $$
-\begin{align}
-a\sin x+b\cos x&=\sqrt{a^2+b^2}\sin(x+\phi)\nonumber\\
-&=\sqrt{a^2+b^2}\cos(x-\theta)\nonumber\\
-\text{其中}\tan\phi=\frac{b}{a}&\text{, }\tan\theta=\frac{a}{b}\nonumber\\
-\end{align}
+\begin{align*}
+a\sin x+b\cos x&=\sqrt{a^2+b^2}\sin(x+\phi)\\
+&=\sqrt{a^2+b^2}\cos(x-\theta)\\
+\text{其中}\tan\phi=\frac{b}{a}&\text{, }\tan\theta=\frac{a}{b}\\
+\end{align*}
 $$
 
 好吧，我承认，这样看起来有点抽象，所以让我们实际感受一下：
 
 $$
-\begin{align}
-\sin x+\cos x=\sqrt{2}\sin\left(x+\frac{\pi}{4}\right)\nonumber\\
-\sqrt{3}\sin x+\cos x=2\sin\left(x+\frac{\pi}{3}\right)\nonumber\\
-\end{align}
+\begin{align*}
+\sin x+\cos x=\sqrt{2}\sin\left(x+\frac{\pi}{4}\right)\\
+\sqrt{3}\sin x+\cos x=2\sin\left(x+\frac{\pi}{3}\right)\\
+\end{align*}
 $$
 
 你可以自己试着推导一下，例如上面第二个式子。
@@ -343,13 +343,13 @@ $$
 {% spoiler "推导过程" %}
 推导：
 $$
-\begin{align}
-&\sqrt{3}\sin x+\cos x\nonumber\\
-=&2\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)\nonumber\\
-\because& \frac{\sqrt{3}}{2} = \sin\frac{\pi}{3}, \frac{1}{2}=\cos\frac{\pi}{3}\nonumber\\
-\therefore& \text{原式}=2\left(\sin x\sin\frac{\pi}{3} + \cos x\cos\frac{\pi}{3}\right)\nonumber\\
-&\qquad=2\sin\left(x+\frac{\pi}{3}\right)\nonumber\\
-\end{align}
+\begin{align*}
+&\sqrt{3}\sin x+\cos x\\
+=&2\left(\frac{\sqrt{3}}{2}\sin x+\frac{1}{2}\cos x\right)\\
+\because& \frac{\sqrt{3}}{2} = \sin\frac{\pi}{3}, \frac{1}{2}=\cos\frac{\pi}{3}\\
+\therefore& \text{原式}=2\left(\sin x\sin\frac{\pi}{3} + \cos x\cos\frac{\pi}{3}\right)
+=2\sin\left(x+\frac{\pi}{3}\right)\\
+\end{align*}
 $$
 {% endspoiler %}
 
