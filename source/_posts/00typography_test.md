@@ -75,27 +75,37 @@ int main(){
 $\LaTeX$渲染！
 
 $$
+\begin{equation*}
 x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+\end{equation*}
 $$
 
 上面是二次方程求根公式
 
 $$
-\int_a^b f(x)\,\mathrm{d}x = F(b) - F(a)
+\begin{equation*}
+    \int_a^b f(x)\,\mathrm{d}x = F(b) - F(a)
+\end{equation*}
 $$
 
 上面是牛顿-莱布尼茨公式
 
 $$
+\begin{equation*}
 \ce{MnO2 + 4HCl }\xlongequal{\triangle} \ce{ MnCl2 + Cl2 ^ + 2H2O}
+\end{equation*}
 $$
 
 $$
+\begin{equation*}
 \ce{MnO2 + 2Cl- + 4H+ }\xlongequal{\triangle} \ce{ Mn^2+ + Cl2 ^ + 2H2O}
+\end{equation*}
 $$
 
 $$
+\begin{equation*}
 \ce{_1^1H  _1^2H  _1^3H}
+\end{equation*}
 $$
 
 
@@ -104,6 +114,13 @@ $$
 $$
 \newcommand\diff{\,\mathrm{d}}
 \diff
+$$
+
+$$
+\begin{align*}
+    p&+q\\
+    a=&
+\end{align*}
 $$
 
 
@@ -156,7 +173,9 @@ int main(){
 }
 ```
 $$
+\begin{equation*}
 x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
+\end{equation*}
 $$
 
 {% endspoiler %}

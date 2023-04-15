@@ -68,13 +68,13 @@ tags:
 
 {% note primary %}
 $$
-\begin{align}
-x_1&=\frac{1}{2}at^2 \nonumber\\
-v_1&=at \nonumber\\
-\ \ \ \nonumber\\
-x_2&=v_0t+\frac{1}{2}at^2 \nonumber\\
-v_2&=v_0+at \nonumber\\
-\end{align}
+\begin{align*}
+x_1&=\frac{1}{2}at^2 \\
+v_1&=at \\
+\ \ \ \\
+x_2&=v_0t+\frac{1}{2}at^2 \\
+v_2&=v_0+at \\
+\end{align*}
 $$
 {% endnote %}
 
@@ -83,28 +83,31 @@ $$
 {% spoiler "推导过程"%}
 <br>
 注意到
-$$x_1=\frac{a}{2}\cdot t^2\nonumber$$
+$$x_1=\frac{a}{2}\cdot t^2$$
 则
 $$
 \newcommand\diff{\,\mathrm{d}}
-\begin{align}
-x_1'=\frac{\diff x_1}{\diff t}&=\left(\frac{a}{2}\right)'\cdot t^2+\frac{a}{2}\cdot \left(t^2\right)'\nonumber\\
-&=0+\frac{a}{2}\cdot 2t \nonumber\\
-&=at \nonumber\\
-&=v_1 \nonumber
-\end{align}
+\begin{align*}
+x_1'=\frac{\diff x_1}{\diff t}&=\left(\frac{a}{2}\right)'\cdot t^2+\frac{a}{2}\cdot \left(t^2\right)'\\
+&=0+\frac{a}{2}\cdot 2t \\
+&=at \\
+&=v_1 
+\end{align*}
 $$
 另外，有
-$$x_2=v_0t+x_1\nonumber$$
+$$
+\begin{equation*}
+x_2=v_0t+x_1
+\end{equation*}$$
 则
 $$
 \newcommand\diff{\,\mathrm{d}}
-\begin{align}
-x_2'=\frac{\diff}{\diff t}\left(v_0t\right)+\frac{\diff x_1}{\diff t}&=v_0+x_1' \nonumber\\
-&=v_0+v_1 \nonumber\\
-&=v_0+at \nonumber\\
-&=v_2 \nonumber
-\end{align}
+\begin{align*}
+x_2'=\frac{\diff}{\diff t}\left(v_0t\right)+\frac{\diff x_1}{\diff t}&=v_0+x_1' \\
+&=v_0+v_1 \\
+&=v_0+at \\
+&=v_2 
+\end{align*}
 $$
 故有上述结论。
 {% endspoiler %}
@@ -133,23 +136,35 @@ $$
 
 **解**：计算（过程略）可得到二次函数解析式
 
-$$y=f(x)=-x^2+2x+3\nonumber$$
+$$
+\begin{equation*}
+y=f(x)=-x^2+2x+3
+\end{equation*}
+$$
 
 且$A(0,3)$，则直线AB的斜率
 
-$$k_{AB}=\frac{y_B-y_A}{x_B-x_A}=\frac{0-3}{3-0}=-1\nonumber$$
+$$
+\begin{equation*}
+k_{AB}=\frac{y_B-y_A}{x_B-x_A}=\frac{0-3}{3-0}=-1
+\end{equation*}
+$$
 
 分析得当抛物线过$P$点的切线平行于直线$AB$时，$\triangle PAB$的面积取到最大值。对$f(x)$求导得
 
-$$f'(x)=-2x+2\nonumber$$
+$$
+\begin{equation*}
+f'(x)=-2x+2
+\end{equation*}
+$$
 
 设此时$P$点坐标为$p_0$，则
 
 $$
-\begin{align}
-f'(p_0)&=-2p_0+2=k_{AB}=-1 \nonumber\\
-\Rightarrow p_0&=\frac{3}{2} \nonumber
-\end{align}
+\begin{align*}
+f'(p_0)&=-2p_0+2=k_{AB}=-1 \\
+\Rightarrow p_0&=\frac{3}{2} 
+\end{align*}
 $$
 
 将$p_0=\frac{3}{2}$代入$f(x)$得此时P点坐标为$(\frac{3}{2},\frac{15}{4})$
@@ -174,14 +189,22 @@ $$
 - 在开区间$(a,b)$内可微分;
 
 那么至少有一点 $\xi ,\;a<\xi <b$，使下面等式成立
-$$f(b)-f(a)=f^{\prime }(\xi )(b-a)\nonumber$$
+$$
+\begin{equation*}
+f(b)-f(a)=f^{\prime }(\xi )(b-a)
+\end{equation*}
+$$
 
 *——来自[中文维基百科：拉格朗日中值定理](https://zh.wikipedia.org/wiki/%E6%8B%89%E6%A0%BC%E6%9C%97%E6%97%A5%E4%B8%AD%E5%80%BC%E5%AE%9A%E7%90%86)*
 
 {% endnote %}
 
 上面的等式也可以写成
-$$f'(\xi)=\frac{f(b)-f(a)}{b-a}\nonumber$$
+$$
+\begin{equation*}
+f'(\xi)=\frac{f(b)-f(a)}{b-a}
+\end{equation*}
+$$
 
 不难发现，写成分式之后，等号右边就是过$f(x)$的图像上两点$A(a,f(a)),\; B(b,f(b))$的直线的斜率，也就是$f(x)$在$[a,b]$上的**平均变化率**。
 
@@ -202,7 +225,11 @@ $$f'(\xi)=\frac{f(b)-f(a)}{b-a}\nonumber$$
 
 {% note primary %}
 对于形如$f(x)=ax^2+bx+c$的二次函数上的区间$[m,n]$，有
-$$f'\left(\frac{m+n}{2}\right)=\frac{f(n)-f(m)}{n-m}\tag{L$_1$}$$
+$$
+\begin{equation*}
+f'\left(\frac{m+n}{2}\right)=\frac{f(n)-f(m)}{n-m}\tag{L$_1$}
+\end{equation*}
+$$
 {% endnote %}
 
 希望读者们看这么一点就能立刻明白是怎么一回事。谨防万一我在这里还是给出它的几何意义。
@@ -217,20 +244,32 @@ $$f'\left(\frac{m+n}{2}\right)=\frac{f(n)-f(m)}{n-m}\tag{L$_1$}$$
 
 对于$\left(\text{L}_1\right)$等式的右边，将其展开：
 $$
-\begin{align}
-\frac{f(n)-f(m)}{n-m}&=\frac{\left(an^2+bn+c\right)-\left(am^2+bm+c\right)}{n-m}\nonumber\\
-&=\frac{a\left(n^2-m^2\right)+b(n-m)}{n-m}\nonumber\\
-&=\frac{a(n+m)(n-m)+b(n-m)}{n-m}\nonumber\\
-&=a(n+m)+b\nonumber\\
-\end{align}
+\begin{align*}
+\frac{f(n)-f(m)}{n-m}&=\frac{\left(an^2+bn+c\right)-\left(am^2+bm+c\right)}{n-m}\\
+&=\frac{a\left(n^2-m^2\right)+b(n-m)}{n-m}\\
+&=\frac{a(n+m)(n-m)+b(n-m)}{n-m}\\
+&=a(n+m)+b\\
+\end{align*}
 $$
 
 $f(x)$在$[a,b]$上连续可导，根据拉格朗日中值定理
-$$\exists\ p\in(m,n),\;f'(p)=\frac{f(n)-f(m)}{n-m}\nonumber$$
+$$
+\begin{equation*}
+\exists\ p\in(m,n),\;f'(p)=\frac{f(n)-f(m)}{n-m}
+\end{equation*}
+$$
 则
-$$f'(p)=2ap+b=a(n+m)+b\nonumber$$
+$$
+\begin{equation*}
+f'(p)=2ap+b=a(n+m)+b
+\end{equation*}
+$$
 可得
-$$p=\frac{m+n}{2}\nonumber$$
+$$
+\begin{equation*}
+p=\frac{m+n}{2}
+\end{equation*}
+$$
 引理得证。
 
 ### 引理的应用
@@ -242,7 +281,11 @@ $$p=\frac{m+n}{2}\nonumber$$
 {% note secondary %}
 **解**：计算可得到二次函数解析式
 
-$$y=f(x)=-x^2+2x+3\nonumber$$
+$$
+\begin{equation*}
+y=f(x)=-x^2+2x+3
+\end{equation*}
+$$
 
 且$A(0,3)$
 
@@ -250,13 +293,21 @@ $$y=f(x)=-x^2+2x+3\nonumber$$
 
 根据引理$\left(\text{L}_1\right)$，可知当$P$点横坐标满足
 
-$$p_0=\frac{x_A+x_B}{2}=\frac{3}{2}\nonumber$$
+$$
+\begin{equation*}
+p_0=\frac{x_A+x_B}{2}=\frac{3}{2}
+\end{equation*}
+$$
 
 时$\triangle PAB$的面积最大。
 
 此时$P$点坐标为
 
-$$P\left(\frac{3}{2},\frac{15}{4}\right)\nonumber$$
+$$
+\begin{equation*}
+P\left(\frac{3}{2},\frac{15}{4}\right)
+\end{equation*}
+$$
 
 {% endnote %}
 
