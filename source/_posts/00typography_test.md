@@ -112,8 +112,10 @@ $$
 上面是一些化学符号
 
 $$
-\newcommand\diff{\,\mathrm{d}}
-\diff
+\begin{equation*}
+\newcommand\dif{\mathrm{d}}
+\dif
+\end{equation*}
 $$
 
 $$

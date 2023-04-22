@@ -86,9 +86,9 @@ $$
 $$x_1=\frac{a}{2}\cdot t^2$$
 则
 $$
-\newcommand\diff{\,\mathrm{d}}
+\newcommand\dif{\mathrm{d}}
 \begin{align*}
-x_1'=\frac{\diff x_1}{\diff t}&=\left(\frac{a}{2}\right)'\cdot t^2+\frac{a}{2}\cdot \left(t^2\right)'\\
+x_1'=\frac{\dif x_1}{\dif t}&=\left(\frac{a}{2}\right)'\cdot t^2+\frac{a}{2}\cdot \left(t^2\right)'\\
 &=0+\frac{a}{2}\cdot 2t \\
 &=at \\
 &=v_1 
@@ -101,9 +101,9 @@ x_2=v_0t+x_1
 \end{equation*}$$
 则
 $$
-\newcommand\diff{\,\mathrm{d}}
+\newcommand\dif{\mathrm{d}}
 \begin{align*}
-x_2'=\frac{\diff}{\diff t}\left(v_0t\right)+\frac{\diff x_1}{\diff t}&=v_0+x_1' \\
+x_2'=\frac{\dif}{\dif t}\left(v_0t\right)+\frac{\dif x_1}{\dif t}&=v_0+x_1' \\
 &=v_0+v_1 \\
 &=v_0+at \\
 &=v_2 
@@ -124,7 +124,7 @@ $$
 
 如图，二次函数$y=-x^2+bx+c$的图像经过$B(3,0)$、$C(-1,0)$，交$y$轴于$A$点。$P$是第一象限内二次函数图像上一点，问当$\triangle PAB$的面积最大时，$P$点的坐标。
 
-<img src="\img\content\09science_discuss_01-derivative\quad_func_prob.png" alt="二次函数题目"  width="300" >
+<img src="../img/content/09science_discuss_01-derivative/quad_func_prob.png" alt="二次函数题目"  width="300" >
 
 {% endnote %}
 
@@ -311,5 +311,4 @@ $$
 
 {% endnote %}
 
-#### 匀变速直线运动
 
