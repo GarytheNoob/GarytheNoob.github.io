@@ -267,10 +267,9 @@ $$
 可得
 $$
 \begin{equation*}
-p=\frac{m+n}{2}
+p=\frac{m+n}{2}\tag*{$\square$}
 \end{equation*}
 $$
-引理得证。
 
 ### 引理的应用
 

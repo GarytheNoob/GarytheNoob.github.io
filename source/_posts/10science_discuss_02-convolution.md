@@ -199,7 +199,7 @@ $$
 \end{equation*}
 $$
 
-{% note info%}
+{% note info %}
 别忘记，本文中对于行的计数是**从第0行开始**的。
 {% endnote %}
 
