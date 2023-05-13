@@ -23,12 +23,12 @@
     "hexo-math": "^4.0.0",
     "hexo-renderer-ejs": "^2.0.0",
     "hexo-renderer-kramed": "^0.1.4",
-    "hexo-renderer-pandoc": "^0.3.1",
+    "hexo-renderer-pandoc": "^0.4.0",
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^3.0.0",
     "hexo-sliding-spoiler": "^1.2.1",
-    "hexo-theme-landscape": "^0.0.3",
-    "patch-package": "^6.5.1",
+    "hexo-theme-landscape": "^1.0.0",
+    "patch-package": "^7.0.0",
     "uuid": "^9.0.0"
   }
 }
