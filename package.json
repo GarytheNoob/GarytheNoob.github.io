@@ -27,7 +27,7 @@
     "hexo-renderer-stylus": "^2.0.0",
     "hexo-server": "^3.0.0",
     "hexo-sliding-spoiler": "^1.2.1",
-    "hexo-theme-landscape": "^0.0.3",
+    "hexo-theme-landscape": "^1.0.0",
     "patch-package": "^6.5.1",
     "uuid": "^9.0.0"
   }
