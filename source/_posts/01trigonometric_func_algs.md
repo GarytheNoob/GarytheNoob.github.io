@@ -316,15 +316,15 @@ $$
 
 #### 辅助角公式
 
-听起来可能很迷糊，但是辅助角公式做的事很简单：就是把形如$a\sin x+b\cos x$的式子（注意是**同角三角函数**）转化为$A\sin(x + \phi)$的形式。转化为后者之后就可以运用诱导公式或者下一节(?)中分析的结论来解题了。
+听起来可能很迷糊，但是辅助角公式做的事很简单：就是把形如$a\sin x+b\cos x$的式子（注意是**同角三角函数**）转化为$A\sin(x + \varphi)$的形式。转化为后者之后就可以运用诱导公式或者下一节(?)中分析的结论来解题了。
 
 辅助角公式：
 
 $$
 \begin{align*}
-a\sin x+b\cos x&=\sqrt{a^2+b^2}\sin(x+\phi)\\
+a\sin x+b\cos x&=\sqrt{a^2+b^2}\sin(x+\varphi)\\
 &=\sqrt{a^2+b^2}\cos(x-\theta)\\
-\text{其中}\tan\phi=\frac{b}{a}&\text{, }\tan\theta=\frac{a}{b}\\
+\text{其中}\tan\varphi=\frac{b}{a}&\text{, }\tan\theta=\frac{a}{b}\\
 \end{align*}
 $$
 
