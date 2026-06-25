@@ -1,9 +1,12 @@
-# About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
+# 关于
 
-::github{repo="saicaca/fuwari"}
+Hello! I am GarytheNoob from Shenzhen, China. I am currently an undergraduate student at the University of Hong Kong.
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+Haven't decided what to put on this About Page...
+
+---
+
+你好！我是来自广东深圳的GarytheNoob，现在是香港大学的一名本科生。
+
+🤔这个关于页我还没想好放什么呢……
+
