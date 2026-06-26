@@ -4,7 +4,7 @@ published: 2026-06-18
 description: "回顾一下来 HKU 的第一个学年，分享一些学习和生活的经验。"
 tags: ["学习", "HKU"]
 category: "学习"
-draft: true
+draft: false
 ---
 
 最近主播也是完成了大一的所有课程，希望借此机会回顾一下在 HKU 的第一年👍
