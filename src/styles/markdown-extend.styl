@@ -243,3 +243,120 @@ a.card-github.fetch-error
   transition-property: all
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
   transition-duration: 0.15s
+
+// Link Card Styles
+a.card-link
+  display: block
+  background: var(--license-block-bg)
+  position: relative
+  margin: 0.5rem 0
+  padding: 1.1rem 1.5rem 1.1rem 1.5rem
+  color: var(--tw-prose-body)
+  border-radius: var(--radius-large)
+  text-decoration-thickness: 0px
+  text-decoration-line: none
+
+  &:hover
+    background-color: var(--btn-regular-bg-hover)
+
+    .lc-titlebar
+      color: var(--btn-content)
+
+    .lc-description
+      color: var(--tw-prose-headings)
+
+    .lc-url
+      color: var(--tw-prose-body)
+
+  &:active
+    scale: .98
+    background-color: var(--btn-regular-bg-active)
+
+  .lc-titlebar
+    display: flex
+    align-items: center
+    justify-content: space-between
+    margin-bottom: 0.5rem
+    color: var(--tw-prose-headings)
+    font-size: 1.25rem
+    font-weight: 500
+
+    .lc-titlebar-left
+      display: flex
+      flex-flow: row nowrap
+      gap: 0.75rem
+      align-items: center
+
+    .lc-icon
+      display: block
+      overflow: hidden
+      width: 1.5rem
+      height: 1.5rem
+      flex-shrink: 0
+      background-color: var(--primary)
+      background-size: cover
+      background-position: center
+      border-radius: 0.25rem
+
+    .lc-title
+      font-weight: 500
+      line-height: 1.5rem
+      overflow: hidden
+      text-overflow: ellipsis
+      white-space: nowrap
+
+  .lc-description
+    margin-bottom: 0.5rem
+    font-size: 1rem
+    font-weight: 300
+    line-height: 1.5rem
+    color: var(--tw-prose-body)
+    overflow: hidden
+    text-overflow: ellipsis
+    display: -webkit-box
+    -webkit-line-clamp: 2
+    -webkit-box-orient: vertical
+
+  .lc-url
+    margin-top: 0.5rem
+    margin-bottom: 0
+    font-size: 0.875rem
+    font-weight: 400
+    line-height: 1.25rem
+    color: var(--tw-prose-body)
+    opacity: 0.7
+    overflow: hidden
+    text-overflow: ellipsis
+    white-space: nowrap
+    display: block
+
+a.card-link.fetch-waiting
+  pointer-events: none
+  opacity: 0.7
+  transition: opacity 0.15s ease-in-out
+
+  .lc-description, .lc-icon
+    background-color: var(--tw-prose-body)
+    color: transparent
+    opacity: 0.5
+    animation: pulsate 2s infinite linear
+    user-select: none
+
+  .lc-url
+    color: var(--tw-prose-body)
+    opacity: 0.5
+
+  .lc-title
+    margin-left: -0.1rem
+
+  .lc-description
+    border-radius: 0.5rem
+
+a.card-link.fetch-error
+  pointer-events: all
+  opacity: 1
+
+.card-link, .lc-description, .lc-titlebar, .lc-title, .lc-icon, .lc-url
+  transition-property: all
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1)
+  transition-duration: 0.15s
